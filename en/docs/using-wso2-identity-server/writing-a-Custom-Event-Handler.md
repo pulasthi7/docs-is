@@ -63,7 +63,7 @@ Following is a sample class written for a SP create workflow handler.
 public class SPCreateHandler extends AbstractWorkflowRequestHandler {
 
   private static final Map<String, String> PARAM_DEFINITION;
-  private static Log log = LogFactory.getLog(SPCreateHandler.class);
+  private static final Log log = LogFactory.getLog(SPCreateHandler.class);
 
   static {
       PARAM_DEFINITION = new LinkedHashMap<>();
