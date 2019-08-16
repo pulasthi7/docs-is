@@ -134,7 +134,7 @@ The following shows a sample class written for a sample template.
 ``` java
 public class SampleTemplateImplementation extends AbstractWorkflow {
 
-    private static Log log = LogFactory.getLog(SampleTemplateImplementation.class);
+    private static final Log log = LogFactory.getLog(SampleTemplateImplementation.class);
 
     public SampleTemplateImplementation(Class<? extends TemplateInitializer> templateInitializerClass,
                                         Class<? extends WorkFlowExecutor> workFlowExecutorClass, String metaDataXML) {

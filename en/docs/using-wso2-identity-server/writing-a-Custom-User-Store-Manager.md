@@ -430,7 +430,7 @@ Do the following steps to write the custom user store manager.
         import java.util.Map;
     
         public class CustomUserStoreManager extends JDBCUserStoreManager {
-           private static Log log = LogFactory.getLog(StarkUserStoreManager.class);
+           private static final Log log = LogFactory.getLog(StarkUserStoreManager.class);
            // This instance is used to generate the hash values
            private static StrongPasswordEncryptor passwordEncryptor = new StrongPasswordEncryptor();
     
