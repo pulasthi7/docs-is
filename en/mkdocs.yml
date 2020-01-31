@@ -46,705 +46,736 @@ theme:
 # Navigation
 nav:
   - 'Home': index.md
-  - 'Getting Started':
-    - 'Introduction': getting-started/overview.md
-    - 'Architecture':
-      - 'Architecture': getting-started/architecture.md
-      - 'Provisioning Architecture': getting-started/provisioning-architecture.md
-      - 'User Management Architecture': getting-started/user-management-architecture.md
-    - 'About this Release': getting-started/about-this-release.md
-    - 'Quick Start Guide': getting-started/quick-start-guide.md
-    - 'Key Concepts':
-      - 'Key Concepts': getting-started/key-concepts.md
-      - 'Single Sign-On and Identity Federation': getting-started/single-sign-on-and-identity-federation.md
-      - 'Identity Provisioning and its Standards': getting-started/identity-provisioning-and-its-standards.md
-      - 'Access Control and Entitlement Management': getting-started/access-control-and-entitlement-management.md
-      - 'Identity Anti-patterns and the Identity Bus': getting-started/identity-anti-patterns-and-the-identity-bus.md
-  - 'Compliance':
-    - 'General Data Protection Regulation': compliance/general-data-protection-regulation.md
-    - 'Electronic Identification, Authentication and Trust Services Regulation': compliance/electronic-identification-authentication-and-trust-services-regulation.md
-  - 'Setup':
-    - 'Installation Guide': 
-      - 'Installing the Product': 
-        - 'Installing the Product': setup/installing-the-Product.md
-        - 'Installation Prerequisites': setup/installation-Prerequisites.md
-        - 'Installing on Linux or OS X': setup/installing-on-Linux-or-OS-X.md
-        - 'Installing on Solaris': setup/installing-on-Solaris.md
-        - 'Installing on Windows': setup/installing-on-Windows.md
-        - 'Installing as a Linux Service': setup/installing-as-a-Linux-Service.md
-        - 'Installing as a Windows Service': setup/installing-as-a-Windows-Service.md
-      - 'Running the Product': setup/running-the-Product.md
-      - 'Getting Started with the Management Console': setup/getting-Started-with-the-Management-Console.md
-      - 'Customizing the Management Console': setup/customizing-the-Management-Console.md
-      - 'Shutting Down and Restarting the Server': setup/shutting-Down-and-Restarting-the-Server.md
-    - 'Deployment Guide':
-      - 'Deployment Patterns':
-        - 'Deployment Patterns': setup/deployment-patterns.md
-        - 'Setting Up Deployment Pattern 1': setup/setting-up-deployment-pattern-1.md
-        - 'Setting Up Deployment Pattern 2': setup/setting-Up-Deployment-Pattern-2.md
-        - 'Setting Up Separate Databases for Clustering': setup/setting-Up-Separate-Databases-for-Clustering.md
-      - 'Deployment Guidelines in Production': setup/deployment-Guidelines-in-Production.md
-      - 'Changing the hostname': setup/changing-the-hostname.md
-      - 'Adding High Availability for LDAP': setup/adding-High-Availability-for-LDAP.md
-      - 'File Based Configurations': 
-        - 'File Based Configurations': setup/file-Based-Configurations.md
-        - 'Configuring a SP and IdP Using Configuration Files': setup/configuring-a-SP-and-IdP-Using-Configuration-Files.md
-      - 'Token Persistence': setup/token-Persistence.md
-      - 'Configuring WSO2 Identity Server as the Key Manager in WSO2 API Manager': setup/configuring-WSO2-Identity-Server-as-the-Key-Manager-in-WSO2-API-Manager.md
-    - 'Migration Guide':
-      - 'Migration Guide': setup/migration-guide.md
-      - 'Upgrading from the Previous Release':
-        - 'Upgrading from the Previous Release': setup/upgrading-from-the-previous-release.md
-        - 'Migrating Data Publishers': setup/migrating-data-publishers.md
-        - 'Understanding What Has Changed': setup/understanding-what-has-changed.md
-      - 'Upgrading From an Older Version of WSO2 IS': setup/upgrading-from-an-older-version-of-wso2-is.md
-    - 'Environment Compatibilty': setup/environment-compatibility.md
-  - 'Tutorials':
-    - 'Authentication':
-      - 'Logging in to your application via Identity Server using Facebook Credentials': tutorials/logging-in-to-your-application-via-identity-server-using-facebook-credentials.md
-      - 'Configuring Shibboleth IdP as a Trusted Identity Provider': tutorials/configuring-shibboleth-idp-as-a-trusted-identity-provider.md
-      - 'Logging in to SimpleSAMLphp using Identity Server': tutorials/logging-in-to-simplesamlphp-using-identity-server.md
-      - 'Enabling SSO for Management Console using OpenSSO as the IDP': tutorials/enabling-sso-for-management-console-using-opensso-as-the-idp.md
-      - 'Logging in to Salesforce using the Identity Server': tutorials/logging-in-to-salesforce-using-the-identity-server.md
-      - 'Logging in to Salesforce with Facebook': tutorials/logging-in-to-salesforce-with-facebook.md
-      - 'Logging in to Salesforce with Integrated Windows Authentication': tutorials/logging-in-to-salesforce-with-integrated-windows-authentication.md
-      - 'Logging in to WSO2 Products via the Identity Server': tutorials/logging-in-to-wso2-products-via-the-identity-server.md
-      - 'Logging in to Workday using the Identity Server': tutorials/logging-in-to-workday-using-the-identity-server.md
-      - 'Logging in to Microsoft Dynamics CRM with WS-Federation': tutorials/logging-in-to-microsoft-dynamics-crm-with-ws-federation.md
-      - 'Logging in to Microsoft Sharepoint Web Applications using Identity Server': tutorials/logging-in-to-microsoft-sharepoint-web-applications-using-identity-server.md
-      - 'Logging in to Office365 with WS-Trust': tutorials/logging-in-to-office365-with-ws-trust.md
-      - 'Logging in to a .NET application using the Identity Server': tutorials/logging-in-to-a-.net-application-using-the-identity-server.md
-      - 'Using REST APIs via XACML to Manage Entitlement': tutorials/using-rest-apis-via-xacml-to-manage-entitlement.md
-      - 'Logging in to Google using the Identity Server': tutorials/logging-in-to-google-using-the-identity-server.md
-      - 'Logging in to an Application Using Google': tutorials/logging-in-to-an-application-using-google.md
-      - 'Testing OIDC Encrypted ID Token with IS': tutorials/testing-oidc-encrypted-id-token-with-is.md
-      - 'Passing OIDC Authentication Request Parameters in a Request Object': tutorials/passing-oidc-authentication-request-parameters-in-a-request-object.md
-      - 'Enforcing Signature Validation for Request Objects': tutorials/enforcing-signature-validation-for-request-objects.md
-    - 'Adaptive Authentication':
-      - 'Adaptive Authentication': tutorials/adaptive-authentication.md
-      - 'Configuring a Service Provider for Adaptive Authentication': tutorials/configuring-a-service-provider-for-adaptive-authentication.md
-      - 'Adaptive Authentication Scenarios':
-        - 'Adaptive Authentication Scenarios': tutorials/adaptive-authentication-scenarios.md
-        - 'Configuring Role-Based Adaptive Authentication': tutorials/configuring-role-based-adaptive-authentication.md
-        - 'Configuring User-Age-Based Adaptive Authentication': tutorials/configuring-user-age-based-adaptive-authentication.md
-        - 'Configuring Tenant-Based Adaptive Authentication': tutorials/configuring-tenant-based-adaptive-authentication.md
-        - 'Configuring User Store-Based Adaptive Authentication': tutorials/configuring-user-store-based-adaptive-authentication.md
-        - 'Configuring IP-Based Adaptive Authentication': tutorials/configuring-ip-based-adaptive-authentication.md
-        - 'Configuring New-Device-Based Adaptive Authentication': tutorials/configuring-new-device-based-adaptive-authentication.md
-        - 'Configuring ACR-Based Adaptive Authentication': tutorials/configuring-acr-based-adaptive-authentication.md
-        - 'Configuring Risk-Based Adaptive Authentication': tutorials/configuring-risk-based-adaptive-authentication.md
-        - 'Using WSO2 Stream Processor for Adaptive Authentication': tutorials/using-wso2-stream-processor-for-adaptive-authentication.md
-    - 'Single Sign-On':
-      - 'Single Sign-On': tutorials/single-sign-on.md
-      - 'Configuring Single Sign-On': 
-        - 'Configuring Single Sign-On': tutorials/configuring-single-sign-on.md
-        - 'Configuring reCaptcha for Single Sign On': tutorials/configuring-recaptcha-for-single-sign-on.md
-      - 'Single Sign-On for Native iOS Applications with WSO2 Identity Server': tutorials/single-sign-on-for-native-ios-applications-with-wso2-identity-server.md
-      - 'SAML 2.0 Web SSO':
-        - 'SAML 2.0 Web SSO': tutorials/sAML-2.0-Web-SSO.md
-        - 'Configuring SAML2 Web Single-Sign-On': tutorials/configuring-SAML-2.0-Web-SSO.md
-        - 'Querying SAML Assertions': tutorials/querying-SAML-Assertions.md
-        - 'Configuring SAML 2.0 Artifact Binding': tutorials/configuring-SAML-2.0-Artifact-Binding.md
-      - 'WS-Trust':
-        - 'WS-Trust': tutorials/ws-trust.md
-        - 'Configuring WS-Trust Security Token Service': tutorials/configuring-ws-trust-security-token-service.md
-      - 'WS-Federation':
-        - 'WS-Federation': tutorials/ws-federation.md
-        - 'Configuring WS-Federation Single Sign-On': tutorials/configuring-ws-federation-single-sign-on.md 
-      - 'Integrated Windows Authentication':
-        - 'Integrated Windows Authentication Overview': tutorials/integrated-windows-authentication-overview.md
-        - 'Configuring IWA Single-Sign-On': tutorials/configuring-iwa-single-sign-on.md
-      - 'OAuth2-OpenID Connect':
-        - 'OAuth2-OpenID Connect Overview': tutorials/oauth2-openid-connect-overview.md
-        - 'Configuring OAuth2-OpenID Connect Single-Sign-On': tutorials/configuring-oauth2-openid-connect-single-sign-on.md
-        - 'Configuring OpenID Connect Single Logout': tutorials/configuring-openid-connect-single-logout.md
-    - 'Identity Federation': 
-      - 'Identity Federation': tutorials/identity-federation.md 
-      - 'Configuring Federated Authentication':
-        - 'Configuring Federated Authentication': tutorials/configuring-federated-authentication.md
-        - 'Configuring SAML 2.0 Web SSO': tutorials/configuring-saml-2.0-web-sso.md
-        - 'Configuring OAuth2-OpenID Connect': tutorials/configuring-oauth2-openid-connect.md
-        - 'Configuring WS-Federation': tutorials/configuring-ws-federation.md
-        - 'Configuring Facebook': tutorials/configuring-facebook.md
-        - 'Configuring Yahoo': tutorials/configuring-yahoo.md
-        - 'Configuring Google': tutorials/configuring-google.md
-        - 'Configuring Microsoft Windows Live': tutorials/configuring-microsoft-windows-live.md
-        - 'Configuring IWA on Linux': tutorials/configuring-iwa-on-linux.md
-        - 'Configuring AD FS as a Federated Authenticator': tutorials/configuring-ad-fs-as-a-federated-authenticator.md
-        - 'Configuring Twitter': tutorials/configuring-twitter.md
-        - 'Configuring SMS OTP': tutorials/configuring-sms-otp.md
-        - 'Configuring Email OTP': tutorials/configuring-email-otp.md
-      - 'Identity Federation with WS-Trust':
-        - 'Identity Federation with WS-Trust': tutorials/identity-federation-with-ws-trust.md
-        - 'Configuring STS for Obtaining Tokens with Holder-Of-Key Subject Confirmation': tutorials/configuring-sts-for-obtaining-tokens-with-holder-of-key-subject-confirmation.md
-        - 'WSO2 Identity Server and Claim Aware Proxy Services with ESB': tutorials/wso2-identity-server-and-claim-aware-proxy-services-with-esb.md
-        - 'Accessing Claim Aware Services using STS Secured with Non-repudiation': tutorials/accessing-claim-aware-services-using-sts-secured-with-non-repudiation.md
-        - 'Requesting and Renewing Received SAML2 Bearer Type Tokens': tutorials/requesting-and-renewing-received-saml2-bearer-type-tokens.md
-        - 'Configuring SAML2 Single-Sign-On Across Different WSO2 Products': tutorials/configuring-SAML2-Single-Sign-On-Across-Different-WSO2-Products.md
-        - 'Client-side Support for SAML Artifact Binding': tutorials/client-side-Support-for-SAML-Artifact-Binding.md
-        - 'eIDAS SAML Attribute Profile Support via WSO2 Identity Server': tutorials/eIDAS-SAML-Attribute-Profile-Support-via-WSO2-Identity-Server.md
-    - 'Access Control':
-      - 'Access Control Overview': tutorials/access-control.md
-      - 'Working with Entitlement':
-        - 'Configuring the Policy Administration Point':
-          - 'Configuring the Policy Administration Point': tutorials/configuring-the-policy-administration-point.md
-          - 'Creating a XACML Policy': tutorials/creating-a-xacml-policy.md
-          - 'Editing a XACML Policy': tutorials/editing-a-xacml-policy.md
-          - 'Managing the Version of a XACML Policy': tutorials/managing-the-version-of-a-xacml-policy.md
-          - 'Publishing a XACML Policy': tutorials/publishing-a-xacml-policy.md
-          - 'Viewing the Status of a XACML Policy': tutorials/viewing-the-status-of-a-xacml-policy.md
-          - 'Writing a XACML Policy using a Policy Template': tutorials/writing-a-xacml-policy-using-a-policy-template.md
-        - 'Configuring the Policy Decision Point':
-          - 'Configuring the Policy Decision Point': tutorials/configuring-the-policy-decision-point.md
-          - 'Clearing a Cache': tutorials/clearing-a-cache.md
-          - 'Enabling and Disabling a XACML Policy': tutorials/enabling-and-disabling-a-xacml-policy.md
-        - 'Configuring Access Control Policy for a Service Provider': tutorials/configuring-access-control-policy-for-a-service-provider.md
-        - 'Validating the Scope of OAuth Access Tokens using XACML Policies': tutorials/validating-the-scope-of-oauth-access-tokens-using-xacml-policies.md
-      - 'Working with XACML':
-        - 'Working with XACML': tutorials/working-with-xacml.md
-        - 'Configuring WSO2 EI Entitlement Mediator with Identity Server': tutorials/configuring-wso2-ei-entitlement-mediator-with-identity-server.md
-        - 'Enabling REST Notifications For XACML Policy Updates': tutorials/enabling-rest-notifications-for-xacml-policy-updates.md
-        - 'Identity Server as an XACML Engine': tutorials/identity-server-as-an-xacml-engine.md
-        - 'Working with XACML Multiple Decision Profile Requests': 
-          - 'Working with XACML Multiple Decision Profile Requests Overview': tutorials/working-with-xacml-multiple-decision-profile-requests.md
-          - 'Working with MDP Requests by Repeating Attribute Categories': tutorials/working-with-mdp-requests-by-repeating-attribute-categories.md
-          - 'Working with MDP Requests to Authorize Hierarchical Resources': tutorials/working-with-mdp-requests-to-authorize-hierarchical-resources.md
-          - 'Working with MDP Requests in JSON Format': tutorials/working-with-mdp-requests-in-json-format.md
-        - 'Fine-grained Authorization using XACML Requests in JSON Format': tutorials/fine-grained-authorization-using-xacml-requests-in-json-format.md
-        - 'Improving XACML PDP Performance with Caching Techniques': tutorials/improving-xacml-pdp-performance-with-caching-techniques.md
-        - 'Integrating WSO2 Identity Server with Liferay': tutorials/integrating-wso2-identity-server-with-liferay.md
-        - 'Writing XACML2.0 Policies in WSO2 Identity Server':
-          - 'Writing XACML2.0 Policies in WSO2 Identity Server': tutorials/writing-xacml2.0-policies-in-wso2-identity-server.md
-          - 'Writing XACML policies in WSO2 Identity Server - 1': tutorials/writing-xacml-policies-in-wso2-identity-server-1.md
-          - 'Writing XACML policies in WSO2 Identity Server - 2': tutorials/writing-xacml-policies-in-wso2-identity-server-2.md
-          - 'Writing XACML policies in WSO2 Identity Server - 3': tutorials/writing-xacml-policies-in-wso2-identity-server-3.md
-          - 'Writing XACML policies in WSO2 Identity Server - 4': tutorials/writing-xacml-policies-in-wso2-identity-server-4.md
-          - 'Writing XACML policies in WSO2 Identity Server - 5': tutorials/writing-xacml-policies-in-wso2-identity-server-5.md
-          - 'Writing XACML policies in WSO2 Identity Server - 6': tutorials/writing-xacml-policies-in-wso2-identity-server-6.md
-          - 'Writing XACML policies in WSO2 Identity Server - 7': tutorials/writing-xacml-policies-in-wso2-identity-server-7.md
-        - 'Writing XACML3 Policies in WSO2 Identity Server':
-          - 'Writing XACML3 Policies in WSO2 Identity Server': tutorials/writing-xacml3-policies-in-wso2-identity-server.md
-          - 'Writing XACML 3 Policies in WSO2 Identity Server - 1': tutorials/writing-xacml-3-policies-in-wso2-identity-server-1.md
-          - 'Writing XACML 3 Policies in WSO2 Identity Server - 2': tutorials/writing-xacml-3-policies-in-wso2-identity-server-2.md
-          - 'Writing XACML 3 Policies in WSO2 Identity Server - 3': tutorials/writing-xacml-3-policies-in-wso2-identity-server-3.md
-          - 'Writing XACML 3 Policies in WSO2 Identity Server - 4': tutorials/writing-xacml-3-policies-in-wso2-identity-server-4.md
-          - 'Writing XACML 3 Policies in WSO2 Identity Server - 5': tutorials/writing-xacml-3-policies-in-wso2-identity-server-5.md
-          - 'Writing XACML 3 Policies in WSO2 Identity Server - 6': tutorials/writing-xacml-3-policies-in-wso2-identity-server-6.md
-          - 'Writing XACML 3 Policies in WSO2 Identity Server - 7': tutorials/writing-xacml-3-policies-in-wso2-identity-server-7.md
-        - 'Sending Notifications to External PEP Endpoints': tutorials/sending-notifications-to-external-pep-endpoints.md
-        - 'Writing an XACML 3.0 Policy Using XPath': tutorials/writing-a-xacml-3.0-policy-using-xpath.md
-    - 'Setting Up An LDAP User Store': tutorials/setting-up-an-ldap-user-store.md
-  - 'Using WSO2 Identity Server': 
-    - 'Product Administration': 
-      - 'Product Administration': using-wso2-identity-server/product-Administration.md
-      - 'Configuring the Identity Server':
-        - 'Configuring the Identity Server': using-wso2-identity-server/configuring-the-identity-server.md 
-        - 'Role-based Permissions': using-wso2-identity-server/role-based-permissions.md
-        - 'Email Templates': using-wso2-identity-server/email-templates.md
-        - 'Server Roles': using-wso2-identity-server/server-roles.md
-        - 'Data Dictionary':
-          - 'Data Dictionary': using-wso2-identity-server/data-dictionary.md
-          - 'Registry Related Tables': using-wso2-identity-server/registry-related-tables.md
-          - 'User Management Related Tables': using-wso2-identity-server/user-management-related-tables.md
-          - 'Identity Related Tables': using-wso2-identity-server/identity-related-tables.md
-          - 'Service Provider Related Tables': using-wso2-identity-server/service-provider-related-tables.md
-          - 'Identity Provider Related Tables': using-wso2-identity-server/identity-provider-related-tables.md
-      - 'Implementing Security in the Identity Server': 
-        - 'Implementing Security in the Identity Server': using-wso2-identity-server/implementing-security-in-the-identity-server.md
-        - 'Configuring Transport Level Security': using-wso2-identity-server/configuring-transport-level-security.md
-        - 'Saving Access Tokens in Separate Tables': using-wso2-identity-server/saving-access-tokens-in-separate-tables.md
-        - 'Timestamp in WS-Security to Mitigate Replay Attacks': using-wso2-identity-server/timestamp-in-ws-security-to-mitigate-replay-attacks.md
-        - 'Enabling Java Security Manager': using-wso2-identity-server/enabling-java-security-manager.md
-        - 'Mitigating Cross Site Request Forgery (CSRF) Attacks': using-wso2-identity-server/mitigating-cross-site-request-forgery-csrf-attacks.md
-        - 'Mitigating Authorization Code Interception Attacks': using-wso2-identity-server/mitigating-authorization-code-interception-attacks.md
-        - 'Mitigating Brute Force Attacks': using-wso2-identity-server/mitigating-brute-force-attacks.md
-      - 'Monitoring the Identity Server': 
-        - 'Monitoring the Identity Server': using-wso2-identity-server/monitoring-the-identity-server.md 
-        - 'System Statistics': using-wso2-identity-server/system-statistics.md
-        - 'System Logs': using-wso2-identity-server/system-logs.md
-        - 'SOAP Tracer': using-wso2-identity-server/soap-tracer.md
-        - 'Application Logs': using-wso2-identity-server/application-logs.md
-      - 'Removing References to Deleted User Identities': using-wso2-identity-server/removing-references-to-deleted-user-identities.md
-      - 'Using Tools': 
-        - 'Using Tools': using-wso2-identity-server/using-tools.md
-        - 'Using the SAML2 Toolkit': using-wso2-identity-server/using-the-saml2-toolkit.md
-        - 'Using the XACML TryIt Tool':
-          - 'Using the XACML TryIt Tool': using-wso2-identity-server/using-the-xacml-tryit-tool.md
-          - 'Evaluating a XACML Policy': using-wso2-identity-server/evaluating-a-xacml-policy.md
-      - 'XACML Performance in the Identity Server': using-wso2-identity-server/xacml-performance-in-the-identity-server.md
-      - 'Performance Tuning Recommendations': using-wso2-identity-server/performance-tuning-recommendations.md
-      - 'LDAP vs JDBC': using-wso2-identity-server/ldap-vs-jdbc.md
-      - 'Removing Unused Tokens from the Database': using-wso2-identity-server/removing-unused-tokens-from-the-database.md
-      - 'Adding Logs for Tokens': using-wso2-identity-server/adding-logs-for-tokens.md
-      - 'Data Purging': using-wso2-identity-server/data-purging.md
-      - 'Kerberos Security': using-wso2-identity-server/kerberos-security.md
-      - 'Enabling Mutual SSL':
-        - 'Enabling Mutual SSL': using-wso2-identity-server/enabling-mutual-ssl.md
-        - 'Mutual TLS with client id and secret using OIDC': using-wso2-identity-server/mutual-tls-with-client-id-and-secret-using-oidc.md
-      - 'Invoking an Endpoint from a Different Domain': using-wso2-identity-server/invoking-an-endpoint-from-a-different-domain.md
-      - 'Working with Product Observability': using-wso2-identity-server/working-with-product-observability.md
-    - 'Identity Administration and Provisioning':
-      - 'Configuring the Realm':
-        - 'Configuring the Realm': using-wso2-identity-server/configuring-the-Realm.md
-        - 'Configuring the Authorization Manager': using-wso2-identity-server/configuring-the-Authorization-Manager.md
-        - 'Configuring the System Administrator': using-wso2-identity-server/configuring-the-System-Administrator.md
-        - 'Configuring User Stores': 
-          - 'Configuring User Stores': using-wso2-identity-server/configuring-User-Stores.md
-          - 'Configuring the Primary User Store': using-wso2-identity-server/configuring-the-Primary-User-Store.md
-          - 'Configuring Secondary User Stores': using-wso2-identity-server/configuring-Secondary-User-Stores.md
-          - 'Configuring a JDBC User Store': using-wso2-identity-server/configuring-a-JDBC-User-Store.md
-          - 'Configuring a Read-write Active Directory User Store': using-wso2-identity-server/configuring-a-Read-write-Active-Directory-User-Store.md
-          - 'Configuring a Read-only LDAP User Store': using-wso2-identity-server/configuring-a-Read-only-LDAP-User-Store.md
-          - 'Configuring a Read-write LDAP User Store': using-wso2-identity-server/configuring-a-Read-write-LDAP-User-Store.md
-          - 'Writing a Custom User Store Manager': using-wso2-identity-server/writing-a-Custom-User-Store-Manager.md
-      - 'Configuring Users, Roles and Permissions':
-        - 'Configuring Users, Roles and Permissions': using-wso2-identity-server/configuring-Users-Roles-and-Permissions.md
-        - 'Configuring Users': using-wso2-identity-server/configuring-Users.md
-        - 'Configuring Roles and Permissions': using-wso2-identity-server/configuring-Roles-and-Permissions.md
-        - 'Using Workflows with User Management': using-wso2-identity-server/using-Workflows-with-User-Management.md
-      - 'Claim Management':
-        - 'Claim Management': using-wso2-identity-server/claim-Management.md
-        - 'Configuring Claim Dialects':
-          - 'Configuring Claim Dialects': using-wso2-identity-server/configuring-Claim-Dialects.md
-          - 'Adding Claim Dialects': using-wso2-identity-server/adding-Claim-Dialects.md
-          - 'Editing Claim Dialects': using-wso2-identity-server/editing-Claim-Dialects.md
-          - 'Deleting Claim Dialects': using-wso2-identity-server/deleting-Claim-Dialects.md
-        - 'Configuring Claims':
-          - 'Configuring Claims': using-wso2-identity-server/configuring-Claims.md
-          - 'Adding Claim Mapping': using-wso2-identity-server/adding-Claim-Mapping.md
-          - 'Editing Claim Mapping': using-wso2-identity-server/editing-Claim-Mapping.md
-          - 'Deleting Claim Mapping': using-wso2-identity-server/deleting-Claim-Mapping.md
-      - 'Identity Provisioning':
-        - 'Identity Provisioning': using-wso2-identity-server/identity-provisioning.md
-        - 'The Evolution of Provisioning Standards': using-wso2-identity-server/the-evolution-of-provisioning-standards.md
-        - 'Inbound Provisioning':
-          - 'Inbound Provisioning': using-wso2-identity-server/inbound-provisioning.md
-          - 'Setting Up Service Provider for Inbound Provisioning': using-wso2-identity-server/setting-up-service-provider-for-inbound-provisioning.md
-          - 'Configuring User Stores for SCIM 1.1 based inbound provisioning': using-wso2-identity-server/configuring-user-stores-for-scim-1.1-based-inbound-provisioning.md
-          - 'Configuring Active Directory User Stores for Inbound Provisioning': using-wso2-identity-server/configuring-active-directory-user-stores-for-inbound-provisioning.md
-        - 'Outbound Provisioning':
-          - 'Outbound Provisioning': using-wso2-identity-server/outbound-provisioning.md
-          - 'Outbound Provisioning with SCIM': using-wso2-identity-server/outbound-provisioning-with-scim.md
-          - 'Outbound Provisioning with SPML': using-wso2-identity-server/outbound-provisioning-with-spml.md
-          - 'Outbound Provisioning with Salesforce': using-wso2-identity-server/outbound-provisioning-with-salesforce.md
-          - 'Outbound Provisioning with Google': using-wso2-identity-server/outbound-provisioning-with-google.md
-        - 'Role Based Provisioning': using-wso2-identity-server/role-based-provisioning.md
-        - 'Rule Based Provisioning': using-wso2-identity-server/rule-based-provisioning.md
-        - 'Provisioning Patterns': using-wso2-identity-server/provisioning-patterns.md
-      - 'Account Management Policies':
-        - 'Account Management Policies': using-wso2-identity-server/account-Management-Policies.md
-        - 'Account Recovery':
-          - 'Account Recovery': using-wso2-identity-server/account-Recovery.md
-          - 'Username Recovery':
-            - 'Username Recovery': using-wso2-identity-server/username-Recovery.md
-            - 'Configuring reCaptcha for Username Recovery': using-wso2-identity-server/configuring-reCaptcha-for-Username-Recovery.md
-          - 'Password Recovery':
-            - 'Password Recovery': using-wso2-identity-server/password-Recovery.md
-            - 'Configuring Google reCaptcha for Security-Question Based Password Recovery': using-wso2-identity-server/configuring-Google-reCaptcha-for-Security-Question-Based-Password-Recovery.md
-            - 'Configuring reCaptcha for Password Recovery': using-wso2-identity-server/configuring-reCaptcha-for-Password-Recovery.md
-          - 'Managing Challenge Questions': using-wso2-identity-server/managing-Challenge-Questions.md
-        - 'Self-Registration and Account Confirmation': 
-          - 'Self-Registration and Account Confirmation': using-wso2-identity-server/self-Registration-and-Account-Confirmation.md
-          - 'Configuring reCaptcha for Self Registration': using-wso2-identity-server/configuring-reCaptcha-for-Self-Registration.md
-        - 'Creating Users Using the Ask Password Option': using-wso2-identity-server/creating-Users-Using-the-Ask-Password-Option.md
-        - 'Forced Password Reset': using-wso2-identity-server/forced-Password-Reset.md
-        - 'User Account Suspension': using-wso2-identity-server/user-Account-Suspension.md
-      - 'Password Policies':
-        - 'Password Policies': using-wso2-identity-server/password-Policies.md
-        - 'Password History Validation': using-wso2-identity-server/password-History-Validation.md
-        - 'Password Patterns': using-wso2-identity-server/password-Patterns.md
-      - 'Login Policies':
-        - 'Login Policies': using-wso2-identity-server/login-Policies.md
-        - 'User Account Locking and Account Disabling': 
-          - 'User Account Locking and Account Disabling': using-wso2-identity-server/user-Account-Locking-and-Account-Disabling.md
-          - 'Account Locking by Failed Login Attempts': using-wso2-identity-server/account-Locking-by-Failed-Login-Attempts.md
-          - 'Locking a Specific User Account': using-wso2-identity-server/locking-a-Specific-User-Account.md
-          - 'Account Disabling': using-wso2-identity-server/account-Disabling.md
-        - 'Setting Up ReCaptcha': using-wso2-identity-server/setting-Up-ReCaptcha.md
-      - 'Workflow Management': 
-        - 'Workflow Management': using-wso2-identity-server/workflow-Management.md
-        - 'Adding a Workflow Engine':
-          - 'Adding a Workflow Engine': using-wso2-identity-server/adding-a-Workflow-Engine.md
-          - 'Configuring the BPM Profile of WSO2 EI as a Workflow Engine': using-wso2-identity-server/configuring-the-BPM-Profile-of-WSO2-EI-as-a-Workflow-Engine.md
-        - 'Adding a New Workflow Definition': using-wso2-identity-server/adding-a-New-Workflow-Definition.md
-        - 'Engaging a Workflow in an Operation': using-wso2-identity-server/engaging-a-Workflow-in-an-Operation.md
-        - 'Managing Human Tasks': using-wso2-identity-server/managing-Human-Tasks.md
-        - 'Monitoring Workflow Requests': using-wso2-identity-server/monitoring-Workflow-Requests.md
-      - 'Customizing Automated Emails': using-wso2-identity-server/customizing-Automated-Emails.md
-      - 'Enabling Notifications for User Operations': using-wso2-identity-server/enabling-Notifications-for-User-Operations.md
-      - 'Using the End User Dashboard': using-wso2-identity-server/using-the-End-User-Dashboard.md
-      - 'Associating User Accounts': using-wso2-identity-server/associating-User-Accounts.md
-      - 'Managing User Attributes': using-wso2-identity-server/managing-User-Attributes.md
-      - 'Creating and Managing Tenants': using-wso2-identity-server/creating-and-Managing-Tenants.md
-      - 'Using Email Address as the Username': using-wso2-identity-server/using-Email-Address-as-the-Username.md
-      - 'Managing Consent Purposes': using-wso2-identity-server/managing-Consent-Purposes.md
-    - 'Identity Bus':
-      - 'Identity Bus': using-wso2-identity-server/identity-bus.md
-      - 'Adding and Configuring a Service Provider':
-        - 'Adding and Configuring a Service Provider': using-wso2-identity-server/adding-and-configuring-a-service-provider.md
-        - 'Configuring Claims for a Service Provider':
-          - 'Configuring Claims for a Service Provider': using-wso2-identity-server/configuring-claims-for-a-service-provider.md
-          - 'Consent Management with Single-Sign-On': using-wso2-identity-server/consent-management-with-single-sign-on.md
-        - 'Configuring Roles and Permissions for a Service Provider': using-wso2-identity-server/configuring-roles-and-permissions-for-a-service-provider.md
-        - 'Configuring Inbound Authentication for a Service Provider': using-wso2-identity-server/configuring-inbound-authentication-for-a-service-provider.md
-        - 'Configuring Local and Outbound Authentication for a Service Provider':
-          - 'Configuring Local and Outbound Authentication for a Service Provider': using-wso2-identity-server/configuring-local-and-outbound-authentication-for-a-service-provider.md
-          - 'Multi-factor Authentication for WSO2 IS': using-wso2-identity-server/multi-factor-authentication-for-wso2-is.md
-          - 'Multi-factor Authentication using FIDO': using-wso2-identity-server/multi-factor-authentication-using-fido.md
-          - 'Request Path Authentication': using-wso2-identity-server/request-path-authentication.md
-          - 'Writing a Post-Authentication Handler': using-wso2-identity-server/writing-post-authentication-handler.md
-          - 'Configuring Multi-factor Authentication with Username and Password': using-wso2-identity-server/configuring-multi-factor-authentication-with-username-and-password.md
-        - 'Configuring Inbound Provisioning for a Service Provider': using-wso2-identity-server/configuring-inbound-provisioning-for-a-service-provider.md
-        - 'Configuring Outbound Provisioning for a Service Provider': using-wso2-identity-server/configuring-outbound-provisioning-for-a-service-provider.md
-        - 'Importing or Exporting a Service Provider': using-wso2-identity-server/importing-or-exporting-a-service-provider.md
-      - 'Adding and Configuring an Identity Provider': 
-        - 'Adding and Configuring an Identity Provider': using-wso2-identity-server/adding-and-configuring-an-identity-provider.md
-        - 'Configuring Claims for an Identity Provider': using-wso2-identity-server/configuring-claims-for-an-identity-provider.md
-        - 'Configuring Roles for an Identity Provider': using-wso2-identity-server/configuring-roles-for-an-identity-provider.md
-        - 'Configuring Just-In-Time Provisioning for an Identity Provider':
-          - 'Configuring Just-In-Time Provisioning for an Identity Provider': using-wso2-identity-server/configuring-just-in-time-provisioning-for-an-identity-provider.md
-          - 'Configuring Just-In-Time Provisioning Consent Purposes': using-wso2-identity-server/configuring-just-in-time-provisioning-consent-purposes.md
-          - 'Customizing Just-In-Time Provisioning User Interfaces': using-wso2-identity-server/customizing-just-in-time-provisioning-user-interfaces.md
-        - 'Configuring Outbound Provisioning Connectors for an Identity Provider': using-wso2-identity-server/configuring-outbound-provisioning-connectors-for-an-identity-provider.md
-      - 'Authentication Session Persistence': using-wso2-identity-server/authentication-session-persistence.md
-      - 'Configuring Session Timeout': using-wso2-identity-server/configuring-session-timeout.md
-      - 'Configuring a SP and IdP Using Service Calls': using-wso2-identity-server/configuring-a-sp-and-idp-using-service-calls.md
-    - 'Delegated Access Control':
-      - 'Delegated Access Control': using-wso2-identity-server/delegated-access-control.md
-      - 'OAuth Concepts': using-wso2-identity-server/oauth-concepts.md
-      - 'Working with OAuth':
-        - 'Working with OAuth': using-wso2-identity-server/working-with-oauth.md
-        - 'OAuth 2.0 Clients': using-wso2-identity-server/oauth-2.0-clients.md
-        - 'OAuth 2.0 Grant Types': 
-          - 'OAuth 2.0 Grant Types': using-wso2-identity-server/oauth-2.0-grant-types.md
-          - 'Authorization Code Grant': using-wso2-identity-server/authorization-code-grant.md
-          - 'Implicit Grant': using-wso2-identity-server/implicit-grant.md
-          - 'Resource Owner Password Credentials Grant': using-wso2-identity-server/resource-owner-password-credentials-grant.md
-          - 'Client Credentials Grant': using-wso2-identity-server/client-credentials-grant.md
-          - 'Refresh Token Grant': using-wso2-identity-server/refresh-token-grant.md
-          - 'Kerberos Grant': using-wso2-identity-server/kerberos-grant.md
-        - 'SAML2 Bearer Assertion Profile for OAuth 2.0': using-wso2-identity-server/SAML2-Bearer-Assertion-Profile-for-OAuth-2.0.md
-        - 'Setting Up OAuth Token Hashing': using-wso2-identity-server/setting-Up-OAuth-Token-Hashing.md
-        - 'JWT Token Generation': using-wso2-identity-server/jWT-Token-Generation.md
-        - 'OAuth2 Token Validation and Introspection':
-          - 'OAuth2 Token Validation and Introspection': using-wso2-identity-server/oAuth2-Token-Validation-and-Introspection.md
-          - 'Invoke the OAuth Introspection Endpoint': using-wso2-identity-server/invoke-the-OAuth-Introspection-Endpoint.md
-          - 'OAuth Token Validation Using SOAP Service': using-wso2-identity-server/oAuth-Token-Validation-Using-SOAP-Service.md
-          - 'OAuth Transaction Logs': using-wso2-identity-server/oAuth-Transaction-Logs.md
-        - 'OAuth2 Token Revocation': using-wso2-identity-server/oAuth2-Token-Revocation.md
-        - 'Self-contained Access Tokens': 
-          - 'Self-contained Access Tokens': using-wso2-identity-server/self-contained-Access-Tokens.md
-          - 'Handling Custom Claims with the JWT Bearer Grant Type': using-wso2-identity-server/handling-Custom-Claims-with-the-JWT-Bearer-Grant-Type.md
-        - 'Writing A New OAuth Client Authenticator': using-wso2-identity-server/writing-A-New-OAuth-Client-Authenticator.md
-        - 'Private Key JWT Client Authentication for OIDC': using-wso2-identity-server/private-Key-JWT-Client-Authentication-for-OIDC.md
-        - 'Mutual TLS for OAuth Clients': using-wso2-identity-server/mutual-TLS-for-OAuth-Clients.md
-        - 'Microprofile JWT 1.0 support for IS':
-          - 'Microprofile JWT 1.0 support for IS': using-wso2-identity-server/microprofile-JWT-1.0-support-for-IS.md
-          - 'Running the MP-JWT Sample': using-wso2-identity-server/running-the-MP-JWT-Sample.md 
-        - 'Validating JWT based on JWKS': using-wso2-identity-server/validating-JWT-based-on-JWKS.md
-        - 'Issuing New Tokens Per Request': using-wso2-identity-server/issuing-New-Tokens-Per-Request.md
-      - 'OpenID Connect':
-        - 'OpenID Connect': using-wso2-identity-server/openID-Connect.md
-        - 'OpenID Connect Discovery': using-wso2-identity-server/openID-Connect-Discovery.md
-        - 'OpenID Connect Authentication': 
-          - 'OpenID Connect Authentication': using-wso2-identity-server/openID-Connect-Authentication.md
-          - 'OpenID Connect Basic Client Profile': using-wso2-identity-server/openID-Connect-Basic-Client-Profile.md
-          - 'OpenID Connect Implicit Client Profile': using-wso2-identity-server/openID-Connect-Implicit-Client-Profile.md
-          - 'OpenID Connect Hybrid Flow': using-wso2-identity-server/openID-Connect-Hybrid-Flow.md
-        - 'OpenID Connect Dynamic Client Registration': using-wso2-identity-server/openID-Connect-Dynamic-Client-Registration.md
-        - 'Request Object Support': using-wso2-identity-server/request-Object-Support.md
-        - 'Configuring OpenID Connect Authorization Server': using-wso2-identity-server/configuring-OpenID-Connect-Authorization-Server.md
-        - 'IDToken Signature Verification': using-wso2-identity-server/iDToken-Signature-Verification.md
-        - 'JSON Web Key Set Endpoint': using-wso2-identity-server/jSON-Web-Key-Set-Endpoint.md
-        - 'OpenID Connect Logout URL Redirection': using-wso2-identity-server/openID-Connect-Logout-URL-Redirection.md
-        - 'OpenID Connect Scopes and Claims': using-wso2-identity-server/openID-Connect-Scopes-and-Claims.md
-        - 'OpenID Connect Single Logout': using-wso2-identity-server/openID-Connect-Single-Logout.md
-      - 'Extension Points for OAuth': using-wso2-identity-server/extension-Points-for-OAuth.md
-      - 'User Managed Access':
-        - 'User Managed Access': using-wso2-identity-server/user-managed-access.md
-        - 'User Managed Access Endpoints': using-wso2-identity-server/user-managed-access-endpoints.md
-        - 'User Managed Access with WSO2 Identity Server': using-wso2-identity-server/user-managed-access-with-wso2-identity-server.md
-    - 'Consent Management': using-wso2-identity-server/consent-Management.md
-    - 'Analytics':
-      - 'Analytics': using-wso2-identity-server/analytics.md
-      - 'Prerequisites to Publish Statistics':
-        - 'Prerequisites to Publish Statistics': using-wso2-identity-server/prerequisites-to-Publish-Statistics.md
-        - 'Enabling Geolocation Based Statistics': using-wso2-identity-server/enabling-Geolocation-Based-Statistics.md
-      - 'Analyzing the Authentication Operations':
-        - 'Analyzing the Authentication Operations': using-wso2-identity-server/analyzing-the-Authentication-Operations.md
-        - 'Accessing the Analytics Dashboard': using-wso2-identity-server/accessing-the-Analytics-Dashboard.md
-        - 'Analyzing Overall Login Attempts': using-wso2-identity-server/analyzing-Overall-Login-Attempts.md
-        - 'Analyzing the Local Login Attempts': using-wso2-identity-server/analyzing-the-Local-Login-Attempts.md
-        - 'Analyzing the Federated Login Attempts': using-wso2-identity-server/analyzing-the-Federated-Login-Attempts.md
-        - 'Analyzing Session Statistics': using-wso2-identity-server/analyzing-Session-Statistics.md
-      - 'Monitoring the Authentication Operations with Alerts':
-        - 'Monitoring the Authentication Operations with Alerts': using-wso2-identity-server/Monitoring-the-Authentication-Operations-with-Alerts.md
-        - 'Alert Types': using-wso2-identity-server/alert-Types.md
-        - 'Configuring Alerts': using-wso2-identity-server/configuring-Alerts.md
-        - 'Viewing Alerts': using-wso2-identity-server/Viewing-Alerts.md
-    - 'Authenticators and Provisioning Connectors': using-wso2-identity-server/authenticators-and-Provisioning-Connectors.md
-    - 'Samples':
-      - 'Samples': using-wso2-identity-server/samples.md
-      - 'Downloading a Sample': using-wso2-identity-server/Downloading-a-Sample.md
-      - 'OAuth2':
-        - 'OAuth2': using-wso2-identity-server/oAuth2.md
-        - 'Writing a Custom OAuth 2.0 Grant Type':
-          - 'Writing a Custom OAuth 2.0 Grant Type': using-wso2-identity-server/writing-a-Custom-OAuth-2.0-Grant-Type.md
-          - 'Sending Custom Error Codes': using-wso2-identity-server/sending-Custom-Error-Codes.md
-        - '2-legged OAuth for Securing a RESTful Service': using-wso2-identity-server/2-legged-OAuth-for-Securing-a-RESTful-Service.md
-        - 'OAuth 2.0 with WSO2 Playground':
-          - 'OAuth 2.0 with WSO2 Playground': using-wso2-identity-server/oAuth-2.0-with-WSO2-Playground.md
-          - 'Setting Up the Sample Webapp': using-wso2-identity-server/setting-Up-the-Sample-Webapp.md
-          - 'Try Authorization Code Grant': using-wso2-identity-server/try-Authorization-Code-Grant.md
-          - 'Try Client Credentials Grant': using-wso2-identity-server/try-Client-Credentials-Grant.md
-          - 'Try Implicit Grant': using-wso2-identity-server/try-Implicit-Grant.md
-          - 'Try Password Grant': using-wso2-identity-server/try-Password-Grant.md
-          - 'Try Request Path Authentication': using-wso2-identity-server/try-Request-Path-Authentication.md
-        - 'Setting up a SAML2 Bearer Assertion Profile for OAuth 2.0': using-wso2-identity-server/setting-up-a-SAML2-Bearer-Assertion-Profile-for-OAuth-2.0.md
-      - 'OpenIDConnect':
-        - 'OpenIDConnect': using-wso2-identity-server/openIDConnect.md
-        - 'Basic Client Profile with Playground': using-wso2-identity-server/basic-Client-Profile-with-Playground.md
-        - 'Implicit Client Profile with Playground': using-wso2-identity-server/implicit-Client-Profile-with-Playground.md
-        - 'Verifying OpenID Connect ID Token Signatures': using-wso2-identity-server/verifying-OpenID-Connect-ID-Token-Signatures.md
-        - 'Decrypting OpenID Connect Encrypted ID Tokens': using-wso2-identity-server/decrypting-OpenID-Connect-Encrypted-ID-Tokens.md
-      - 'Configuring Sample Application for Identity Management': using-wso2-identity-server/configuring-Sample-Application-for-Identity-Management.md
-      - 'Writing a Web Service Client for Authentication and User Admin Services': using-wso2-identity-server/writing-a-Web-Service-Client-for-Authentication-and-User-Admin-Services.md
-      - 'Testing Passive STS': using-wso2-identity-server/testing-Passive-STS.md
-      - 'Consuming SCIM Rest Endpoints from a JAVA Client Application': using-wso2-identity-server/consuming-SCIM-Rest-Endpoints-from-a-JAVA-Client-Application.md
-      - 'Running an STS Client': using-wso2-identity-server/running-an-STS-Client.md
-      - 'XACML Sample for an Online Trading Application': using-wso2-identity-server/xACML-Sample-for-an-Online-Trading-Application.md
-      - 'Broker Trust Relationships with WSO2 Identity Server': using-wso2-identity-server/broker-Trust-Relationships-with-WSO2-Identity-Server.md
-      - 'Log in to the Identity Server using another Identity Server - SAML2': using-wso2-identity-server/log-in-to-the-Identity-Server-using-another-Identity-Server---SAML2.md
-      - 'Login to Identity Server using another Identity Server - OAuth2': using-wso2-identity-server/login-to-Identity-Server-using-another-Identity-Server---OAuth2.md
-    - 'Developer Guide':
-      - 'Developer Guide': using-wso2-identity-server/developer-Guide.md
-      - 'Working with the Source Code': using-wso2-identity-server/working-with-the-Source-Code.md
-      - 'Extending the Identity Server': using-wso2-identity-server/extending-the-Identity-Server.md
-      - 'Using APIs': using-wso2-identity-server/using-APIs.md
-      - 'Customizing User Interfaces': using-wso2-identity-server/customizing-User-Interfaces.md
-      - 'Customizing the Authentication Endpoint': using-wso2-identity-server/customizing-the-Authentication-Endpoint.md
-      - 'Localization Support in Identity Server': using-wso2-identity-server/localization-Support-in-Identity-Server.md
-      - 'Hosting Authentication Endpoint on a Different Server': using-wso2-identity-server/hosting-Authentication-Endpoint-on-a-Different-Server.md
-    - 'Logging Claims in Audit Logs': using-wso2-identity-server/logging-Claims-in-Audit-Logs.md 
-  - 'Admin Guide':
-    - 'WSO2 Administration Guide': admin-guide/wSO2-Administration-Guide.md
-    - 'Deployment and Clustering':
-      - 'Deployment and Clustering': admin-guide/deployment-and-Clustering.md
-      - 'Key Concepts':
-        - 'Key Concepts': admin-guide/key-Concepts.md
-        - 'Clustering Overview': admin-guide/clustering-Overview.md
-        - 'Load Balancing': admin-guide/load-Balancing.md    
-        - 'Separating the Worker and Manager Nodes': admin-guide/separating-the-Worker-and-Manager-Nodes.md
-        - 'Sharing Databases in a Cluster': admin-guide/sharing-Databases-in-a-Cluster.md
-        - 'Sticky Sessions with Manager Nodes': admin-guide/sticky-Sessions-with-Manager-Nodes.md
-      - 'Production Deployment Guidelines': 
-        - 'Production Deployment Guidelines': admin-guide/production-Deployment-Guidelines.md
-        - 'Security Guidelines for Production Deployment': admin-guide/security-Guidelines-for-Production-Deployment.md
-        - 'Troubleshooting in Production Environments': admin-guide/troubleshooting-in-Production-Environments.md
-      - 'Configuring rsync for Deployment Synchronization': admin-guide/configuring-rsync-for-Deployment-Synchronization.md
-    - 'Data Stores':
-      - 'Data Stores': admin-guide/data-Stores.md
-      - 'Working with Databases':
-        - 'Working with Databases': admin-guide/working-with-Databases.md
-        - 'Setting up the Physical Database':
-          - 'Setting up the Physical Database': admin-guide/setting-up-the-Physical-Database.md
-          - 'Setting up IBM DB2': admin-guide/setting-up-IBM-DB2.md
-          - 'Setting up IBM Informix': admin-guide/setting-up-IBM-Informix.md
-          - 'Setting up H2': 
-            - 'Setting up H2': admin-guide/setting-up-H2.md
-            - 'Setting up Embedded H2': admin-guide/setting-up-Embedded-H2.md
-            - 'Setting up Remote H2': admin-guide/setting-up-Remote-H2.md
-          - 'Setting up MariaDB': admin-guide/setting-up-MariaDB.md
-          - 'Setting up Microsoft SQL': admin-guide/setting-up-Microsoft-SQL.md
-          - 'Setting up MySQL': admin-guide/setting-up-MySQL.md
-          - 'Setting up a MySQL Cluster': admin-guide/setting-up-a-MySQL-Cluster.md
-          - 'Setting up Oracle': admin-guide/setting-up-Oracle.md
-          - 'Setting up Oracle RAC': admin-guide/setting-up-Oracle-RAC.md
-          - 'Setting up PostgreSQL': admin-guide/setting-up-PostgreSQL.md
-          - 'Setting up Derby':
-            - 'Setting up Derby': admin-guide/setting-up-Derby.md
-            - 'Setting up Embedded Derby': admin-guide/setting-up-Embedded-Derby.md
-            - 'Setting up Remote Derby': admin-guide/setting-up-Remote-Derby.md
-        - 'Changing the Carbon Database':
-          - 'Changing the Carbon Database': admin-guide/changing-the-Carbon-Database.md
-          - 'Changing to Embedded Derby': admin-guide/changing-to-Embedded-Derby.md
-          - 'Changing to Embedded H2': admin-guide/changing-to-Embedded-H2.md
-          - 'Changing to IBM DB2': admin-guide/changing-to-IBM-DB2.md
-          - 'Changing to IBM Informix': admin-guide/changing-to-IBM-Informix.md
-          - 'Changing to MariaDB': admin-guide/changing-to-MariaDB.md
-          - 'Changing to MSSQL': admin-guide/changing-to-MSSQL.md
-          - 'Changing to MySQL': admin-guide/changing-to-MySQL.md
-          - 'Changing to Oracle': admin-guide/changing-to-Oracle.md
-          - 'Changing to Oracle RAC': admin-guide/changing-to-Oracle-RAC.md
-          - 'Changing to PostgreSQL': admin-guide/changing-to-PostgreSQL.md
-          - 'Changing to Remote H2': admin-guide/changing-to-Remote-H2.md
-        - 'Browsing the H2 Database': admin-guide/browsing-the-H2-Database.md
-      - 'Working with the Registry': 
-        - 'Working with the Registry': admin-guide/working-with-the-Registry.md
-        - 'Managing the Registry':
-          - 'Managing the Registry': admin-guide/managing-the-Registry.md
-          - 'Metadata': admin-guide/metadata.md
-          - 'Properties': admin-guide/properties.md
-          - 'Entries and Content':
-            - 'Entries and Content': admin-guide/entries-and-Content.md
-            - 'Adding a Resource': admin-guide/adding-a-Resource.md
-            - 'Link Creation': admin-guide/link-Creation.md
-            - 'Editing collections using the Entries panel': admin-guide/editing-collections-using-the-Entries-panel.md
-          - 'Role Permissions': admin-guide/role-Permissions.md
-        - 'Searching the Registry': admin-guide/searching-the-Registry.md
-        - 'Using Remote Registry Instances for the Registry Partitions':
-          - 'Using Remote Registry Instances for the Registry Partitions': admin-guide/using-Remote-Registry-Instances-for-the-Registry-Partitions.md
-          - 'All Partitions in a Single Server': admin-guide/all-Partitions-in-a-Single-Server.md
-          - 'Config and Governance Partitions in a Remote Registry': admin-guide/config-and-Governance-Partitions-in-a-Remote-Registry.md
-          - 'Governance Partition in a Remote Registry': admin-guide/governance-Partition-in-a-Remote-Registry.md
-          - 'Config and Governance Partitions in Separate Nodes': admin-guide/config-and-Governance-Partitions-in-a-Remote-Registry.md
-      - 'Working with Users, Roles and Permissions':
-        - 'Working with Users, Roles and Permissions': admin-guide/working-with-Users-Roles-and-Permissions.md
-        - 'Introduction to User Management': admin-guide/introduction-to-User-Management.md
-        - 'Configuring the User Realm': 
-          - 'Configuring the User Realm': admin-guide/configuring-the-User-Realm.md
-          - 'Configuring the System Administrator': admin-guide/configuring-the-System-Administrator.md
-          - 'Configuring the Authorization Manager': admin-guide/configuring-the-Authorization-Manager.md
-          - 'Configuring User Stores':
-            - 'Configuring User Stores': admin-guide/configuring-User-Stores.md
-            - 'Configuring the Primary User Store':
-              - 'Configuring the Primary User Store': admin-guide/configuring-the-Primary-User-Store.md
-              - 'Configuring a JDBC User Store': admin-guide/configuring-a-JDBC-User-Store.md
-              - 'Configuring a Read-Only LDAP User Store': admin-guide/configuring-a-Read-Only-LDAP-User-Store.md
-              - 'Configuring a Read-Write Active Directory User Store': admin-guide/configuring-a-Read-Write-Active-Directory-User-Store.md
-              - 'Configuring a Read-Write LDAP User Store': admin-guide/configuring-a-Read-Write-LDAP-User-Store.md
-            - 'Configuring Secondary User Stores': admin-guide/configuring-Secondary-User-Stores.md 
-            - 'Working with Properties of User Stores': admin-guide/working-with-Properties-of-User-Stores.md
-            - 'Writing a Custom User Store Manager': admin-guide/writing-a-Custom-User-Store-Manager.md
-    - 'Security':
-      - 'Security': admin-guide/security.md
-      - 'Maintaining Logins and Passwords': admin-guide/maintaining-Logins-and-Passwords.md
-      - 'Securing Passwords in Configuration Files':
-        - 'Securing Passwords in Configuration Files': admin-guide/securing-Passwords-in-Configuration-Files.md
-        - 'Encrypting Passwords with Cipher Tool': admin-guide/encrypting-Passwords-with-Cipher-Tool.md
-        - 'Resolving Encrypted Passwords': admin-guide/resolving-Encrypted-Passwords.md
-        - 'Carbon Secure Vault Implementation': admin-guide/carbon-Secure-Vault-Implementation.md
-      - 'Configuring Transport Level Security': admin-guide/configuring-Transport-Level-Security.md
-      - 'Enabling Java Security Manager': admin-guide/enabling-Java-Security-Manager.md
-      - 'Using Asymmetric Encryption':
-        - 'Using Asymmetric Encryption': admin-guide/using-Asymmetric-Encryption.md
-        - 'Creating New Keystores': admin-guide/creating-New-Keystores.md
-        - 'Renewing a CA-Signed Certificate in a Keystore': admin-guide/renewing-a-CA-Signed-Certificate-in-a-Keystore.md
-        - 'Configuring Keystores in WSO2 Products': admin-guide/configuring-Keystores-in-WSO2-Products.md
-        - 'Managing Keystores with the UI': admin-guide/managing-Keystores-with-the-UI.md
-      - 'Using Symmetric Encryption': admin-guide/using-Symmetric-Encryption.md
-      - 'Mitigating Cross Site Request Forgery Attacks': admin-guide/mitigating-Cross-Site-Request-Forgery-Attacks.md
-      - 'Mitigating Cross Site Scripting Attacks': admin-guide/mitigating-Cross-Site-Scripting-Attacks.md
-      - 'Enabling HostName Verification': admin-guide/enabling-HostName-Verification.md
-      - 'Configuring TLS Termination': admin-guide/configuring-TLS-Termination.md
-    - 'Carbon Applications':
-      - 'Carbon Applications': admin-guide/carbon-Applications.md
-      - 'Adding a Custom Proxy Path': admin-guide/adding-a-Custom-Proxy-Path.md
-      - 'Changing the Default Ports': 
-        - 'Changing the Default Ports': admin-guide/changing-the-Default-Ports.md
-        - 'Default Ports of WSO2 Products': admin-guide/default-Ports-of-WSO2-Products.md
-      - 'Configuring SAML2 Single-Sign-On Across Different WSO2 Products': admin-guide/configuring-SAML2-Single-Sign-On-Across-Different-WSO2-Products.md
-      - 'Configuring the Task Scheduling Component': admin-guide/configuring-the-Task-Scheduling-Component.md
-      - 'Customizing Error Pages': admin-guide/customizing-Error-Pages.md
-      - 'Customizing the Management Console': admin-guide/customizing-the-Management-Console.md
-      - 'Installing WSO2 Products as a Service':
-        - 'Installing WSO2 Products as a Service': admin-guide/installing-WSO2-Products-as-a-Service.md
-        - 'Installing as a Linux Service': admin-guide/installing-as-a-Linux-Service.md
-        - 'Installing as a Windows Service': admin-guide/installing-as-a-Windows-Service.md
-      - 'Managing Datasources':
-        - 'Managing Datasources': admin-guide/managing-Datasources.md
-        - 'Adding Datasources': admin-guide/adding-Datasources.md
-        - 'Configuring an RDBMS Datasource':
-          - 'Configuring an RDBMS Datasource': admin-guide/configuring-an-RDBMS-Datasource.md
-          - 'Configuring the Datasource Provider': admin-guide/configuring-the-Datasource-Provider.md
-          - 'Configuring a JNDI Datasource': admin-guide/configuring-a-JNDI-Datasource.md
-          - 'Configuring the Datasource Connection Pool Parameters': admin-guide/configuring-the-Datasource-Connection-Pool-Parameters.md
-        - 'Configuring a Custom Datasource': admin-guide/configuring-a-Custom-Datasource.md
-      - 'Managing Users, Roles and Permissions':
-        - 'Managing Users, Roles and Permissions': admin-guide/managing-Users-Roles-and-Permissions.md
-        - 'Changing a Password': admin-guide/changing-a-Password.md
-        - 'Configuring Roles': admin-guide/configuring-Roles.md
-        - 'Configuring Users': admin-guide/configuring-Users.md
-        - 'Role-based Permissions': admin-guide/role-based-Permissions.md
-        - 'Managing User Attributes': admin-guide/managing-User-Attributes.md
-        - 'Removing References to Deleted User Identities in WSO2 Products':
-          - 'Removing References to Deleted User Identities in WSO2 Products': admin-guide/removing-References-to-Deleted-User-Identities-in-WSO2-Products.md
-          - 'Extending the Identity Anonymization Tool': admin-guide/extending-the-Identity-Anonymization-Tool.md
-      - 'Securing Carbon Applications': admin-guide/securing-Carbon-Applications.md
-      - 'Working with Composite Applications':
-        - 'Working with Composite Applications': admin-guide/working-with-Composite-Applications.md
-        - 'Introduction to Composite Applications': admin-guide/introduction-to-Composite-Applications.md
-        - 'Packaging Artifacts into Composite Applications': admin-guide/packaging-Artifacts-into-Composite-Applications.md
-        - 'Deploying Composite Applications in the Server': admin-guide/deploying-Composite-Applications-in-the-Server.md
-      - 'Working with Features': admin-guide/working-with-Features.md
-      - 'Working with Multiple Tenants':
-        - 'Working with Multiple Tenants': admin-guide/working-with-Multiple-Tenants.md
-        - 'Introduction to Multitenancy': admin-guide/introduction-to-Multitenancy.md
-        - 'Configuring the Tenant Loading Policy': admin-guide/configuring-the-Tenant-Loading-Policy.md
-        - 'Adding New Tenants': admin-guide/adding-New-Tenants.md
-      - 'Working with Transports':
-        - 'Working with Transports': admin-guide/working-with-Transports.md
-        - 'Introduction to Transports': admin-guide/introduction-to-Transports.md
-        - 'Carbon Transports':
-          - 'Carbon Transports': admin-guide/carbon-Transports.md
-          - 'HTTP Servlet Transport': admin-guide/hTTP-Servlet-Transport.md
-          - 'HTTPS Servlet Transport': admin-guide/hTTPS-Servlet-Transport.md
-          - 'HTTP-NIO Transport': admin-guide/hTTP-NIO-Transport.md
-          - 'HTTPS-NIO Transport': admin-guide/hTTPS-NIO-Transport.md
-          - 'VFS Transport': admin-guide/vFS-Transport.md
-          - 'JMS Transport': admin-guide/jMS-Transport.md
-          - 'MailTo Transport': admin-guide/mailTo-Transport.md
-          - 'TCP Transport': admin-guide/tCP-Transport.md
-          - 'Local Transport': admin-guide/local-Transport.md
-          - 'UDP Transport': admin-guide/uDP-Transport.md
-          - 'FIX Transport': admin-guide/fIX-Transport.md
-    - 'Performance Tuning': admin-guide/performance-Tuning.md
-    - 'Monitoring':
-      - 'Monitoring': admin-guide/monitoring.md
-      - 'Capturing System Data in Error Situations': admin-guide/capturing-System-Data-in-Error-Situations.md
-      - 'JMX-Based Monitoring': admin-guide/jMX-Based-Monitoring.md
-      - 'Monitoring Logs':
-        - 'Monitoring Logs': admin-guide/monitoring-Logs.md
-        - 'Monitoring Logs using Management Console':
-          - 'Monitoring Logs using Management Console': admin-guide/monitoring-Logs-using-Management-Console.md
-          - 'Configuring Log4j Properties': admin-guide/configuring-Log4j-Properties.md
-          - 'Configuring the Log Provider': admin-guide/configuring-the-Log-Provider.md
-          - 'View and Download Logs': admin-guide/view-and-Download-Logs.md
-        - 'HTTP Access Logging': admin-guide/hTTP-Access-Logging.md
-        - 'Masking Sensitive Information in Logs': admin-guide/masking-Sensitive-Information-in-Logs.md
-      - 'Monitoring Message Flows': admin-guide/monitoring-Message-Flows.md
-      - 'Monitoring Performance Statistics': admin-guide/monitoring-Performance-Statistics.md
-      - 'Monitoring SOAP Messages': admin-guide/monitoring-SOAP-Messages.md
-      - 'Monitoring TCP-Based Messages':
-        - 'Monitoring TCP-Based Messages': admin-guide/monitoring-TCP-Based-Messages.md
-        - 'Starting TCPMon': admin-guide/starting-TCPMon.md
-        - 'Message Monitoring with TCPMon': admin-guide/message-Monitoring-with-TCPMon.md
-        - 'Other Usages of TCPMon': admin-guide/other-Usages-of-TCPMon.md
-      - 'Monitoring with WSO2 Carbon Metrics':
-        - 'Monitoring with WSO2 Carbon Metrics': admin-guide/monitoring-with-WSO2-Carbon-Metrics.md
-        - 'Setting Up Carbon Metrics': 
-          - 'Setting Up Carbon Metrics': admin-guide/setting-Up-Carbon-Metrics.md
-          - 'Enabling Metrics and Storage Types': admin-guide/enabling-Metrics-and-Storage-Types.md
-          - 'Configuring Metrics Properties': admin-guide/configuring-Metrics-Properties.md
-        - 'Using JVM Metrics': admin-guide/using-JVM-Metrics.md
-        - 'Using Messaging Metrics': admin-guide/using-Messaging-Metrics.md
-      - 'Monitoring Server Health': admin-guide/monitoring-Server-Health.md
-    - 'Getting WSO2 Updates': admin-guide/getting-WSO2-Updates.md
-    - 'Reference Guide':
-      - 'Reference Guide': admin-guide/reference-Guide.md  
-      - 'Configuration Files': admin-guide/configuration-Files.md
-      - 'Database Upgrade Guide': admin-guide/database-Upgrade-Guide.md
-      - 'Product Startup Options': admin-guide/product-Startup-Options.md
-      - 'Supported Cipher Suites': admin-guide/supported-Cipher-Suites.md
-      - 'Directory Structure of WSO2 Products': admin-guide/directory-Structure-of-WSO2-Products.md
-      - 'WSO2 Patch Application Process': admin-guide/wSO2-Patch-Application-Process.md
-  - 'References': 
-    - 'References': references/references.md
-    - 'Default Ports of WSO2 Products': references/default-ports-of-wso2-products.md
-    - 'Permissions Required to Invoke Admin Services': references/permissions-Required-to-Invoke-Admin-Services.md
-    - 'API Permissions': references/api-permissions.md
-    - 'Evolution of Identity Federation Standards': references/evolution-of-Identity-Federation-Standards.md
-    - 'Adaptive Authentication JS API Reference': references/adaptive-authentication-js-api-reference.md
+  - 'Quick Start' :
+    - 'Quick Start':  quick-start.md
+  - 'Single Sign On' :
+    - 'Chosing your platform' : sso/choose-platform.md
+    - 'Platforms' :
+      - 'SAML' : sso/configure-saml-application.md
+      - 'OpenID Connect': sso/configure-oidc-application.md
+      - 'Passive STS' : sso/configure-passive-sts-application.md
+  - 'Managing Users' :
+    - 'Managing User Stores' :
+        - 'Connecting a Database Userstore' : user/connect-database-userstore.md
+        - 'Connecting a LDAP Userstore' : user/connect-ldap-userstore.md
+        - 'Connecting a Active Directory Userstore' : user/connect-ldap-userstore.md
+    - 'Managing Users' :
+        - 'Add a user' : user/user-add.md
+        - 'Bulk add users' : user/user-bulk-add.md
+        - 'View a user profile' : user/user-view-profile.md
+  - 'Reference' :
+    - 'REST APIs' : reference/rest-api-reference.md
+    - 'Authentication Script API' : reference/authentication-script-reference.md
+    - 'Configuration Catalog' : reference/configuration-catalogue.md
+  - 'Server Administration' :
+    - 'Deploying to Prodcution' :
+      - 'Chosing deploy environment' : deploy/choose-environment.md
+      - 'Deploy Environments':
+          - 'On Premise' : deploy/deploy-on-premise.md
+  - 'Concepts' :
+      - 'SAML' : concepts/saml.md
+      - 'Oauth' : concepts/oauth.md
+      - 'Open ID Connect' : concepts/oidc.md
+  #
+#  - 'Getting Started':
+#    - 'Introduction': getting-started/overview.md
+#    - 'Architecture':
+#      - 'Architecture': getting-started/architecture.md
+#      - 'Provisioning Architecture': getting-started/provisioning-architecture.md
+#      - 'User Management Architecture': getting-started/user-management-architecture.md
+#    - 'About this Release': getting-started/about-this-release.md
+#    - 'Quick Start Guide': getting-started/quick-start-guide.md
+#    - 'Key Concepts':
+#      - 'Key Concepts': getting-started/key-concepts.md
+#      - 'Single Sign-On and Identity Federation': getting-started/single-sign-on-and-identity-federation.md
+#      - 'Identity Provisioning and its Standards': getting-started/identity-provisioning-and-its-standards.md
+#      - 'Access Control and Entitlement Management': getting-started/access-control-and-entitlement-management.md
+#      - 'Identity Anti-patterns and the Identity Bus': getting-started/identity-anti-patterns-and-the-identity-bus.md
+#  - 'Compliance':
+#    - 'General Data Protection Regulation': compliance/general-data-protection-regulation.md
+#    - 'Electronic Identification, Authentication and Trust Services Regulation': compliance/electronic-identification-authentication-and-trust-services-regulation.md
+#  - 'Setup':
+#    - 'Installation Guide':
+#      - 'Installing the Product':
+#        - 'Installing the Product': setup/installing-the-Product.md
+#        - 'Installation Prerequisites': setup/installation-Prerequisites.md
+#        - 'Installing on Linux or OS X': setup/installing-on-Linux-or-OS-X.md
+#        - 'Installing on Solaris': setup/installing-on-Solaris.md
+#        - 'Installing on Windows': setup/installing-on-Windows.md
+#        - 'Installing as a Linux Service': setup/installing-as-a-Linux-Service.md
+#        - 'Installing as a Windows Service': setup/installing-as-a-Windows-Service.md
+#      - 'Running the Product': setup/running-the-Product.md
+#      - 'Getting Started with the Management Console': setup/getting-Started-with-the-Management-Console.md
+#      - 'Customizing the Management Console': setup/customizing-the-Management-Console.md
+#      - 'Shutting Down and Restarting the Server': setup/shutting-Down-and-Restarting-the-Server.md
+#    - 'Deployment Guide':
+#      - 'Deployment Patterns':
+#        - 'Deployment Patterns': setup/deployment-patterns.md
+#        - 'Setting Up Deployment Pattern 1': setup/setting-up-deployment-pattern-1.md
+#        - 'Setting Up Deployment Pattern 2': setup/setting-Up-Deployment-Pattern-2.md
+#        - 'Setting Up Separate Databases for Clustering': setup/setting-Up-Separate-Databases-for-Clustering.md
+#      - 'Deployment Guidelines in Production': setup/deployment-Guidelines-in-Production.md
+#      - 'Changing the hostname': setup/changing-the-hostname.md
+#      - 'Adding High Availability for LDAP': setup/adding-High-Availability-for-LDAP.md
+#      - 'File Based Configurations':
+#        - 'File Based Configurations': setup/file-Based-Configurations.md
+#        - 'Configuring a SP and IdP Using Configuration Files': setup/configuring-a-SP-and-IdP-Using-Configuration-Files.md
+#      - 'Token Persistence': setup/token-Persistence.md
+#      - 'Configuring WSO2 Identity Server as the Key Manager in WSO2 API Manager': setup/configuring-WSO2-Identity-Server-as-the-Key-Manager-in-WSO2-API-Manager.md
+#    - 'Migration Guide':
+#      - 'Migration Guide': setup/migration-guide.md
+#      - 'Upgrading from the Previous Release':
+#        - 'Upgrading from the Previous Release': setup/upgrading-from-the-previous-release.md
+#        - 'Migrating Data Publishers': setup/migrating-data-publishers.md
+#        - 'Understanding What Has Changed': setup/understanding-what-has-changed.md
+#      - 'Upgrading From an Older Version of WSO2 IS': setup/upgrading-from-an-older-version-of-wso2-is.md
+#    - 'Environment Compatibilty': setup/environment-compatibility.md
+#  - 'Tutorials':
+#    - 'Authentication':
+#      - 'Logging in to your application via Identity Server using Facebook Credentials': tutorials/logging-in-to-your-application-via-identity-server-using-facebook-credentials.md
+#      - 'Configuring Shibboleth IdP as a Trusted Identity Provider': tutorials/configuring-shibboleth-idp-as-a-trusted-identity-provider.md
+#      - 'Logging in to SimpleSAMLphp using Identity Server': tutorials/logging-in-to-simplesamlphp-using-identity-server.md
+#      - 'Enabling SSO for Management Console using OpenSSO as the IDP': tutorials/enabling-sso-for-management-console-using-opensso-as-the-idp.md
+#      - 'Logging in to Salesforce using the Identity Server': tutorials/logging-in-to-salesforce-using-the-identity-server.md
+#      - 'Logging in to Salesforce with Facebook': tutorials/logging-in-to-salesforce-with-facebook.md
+#      - 'Logging in to Salesforce with Integrated Windows Authentication': tutorials/logging-in-to-salesforce-with-integrated-windows-authentication.md
+#      - 'Logging in to WSO2 Products via the Identity Server': tutorials/logging-in-to-wso2-products-via-the-identity-server.md
+#      - 'Logging in to Workday using the Identity Server': tutorials/logging-in-to-workday-using-the-identity-server.md
+#      - 'Logging in to Microsoft Dynamics CRM with WS-Federation': tutorials/logging-in-to-microsoft-dynamics-crm-with-ws-federation.md
+#      - 'Logging in to Microsoft Sharepoint Web Applications using Identity Server': tutorials/logging-in-to-microsoft-sharepoint-web-applications-using-identity-server.md
+#      - 'Logging in to Office365 with WS-Trust': tutorials/logging-in-to-office365-with-ws-trust.md
+#      - 'Logging in to a .NET application using the Identity Server': tutorials/logging-in-to-a-.net-application-using-the-identity-server.md
+#      - 'Using REST APIs via XACML to Manage Entitlement': tutorials/using-rest-apis-via-xacml-to-manage-entitlement.md
+#      - 'Logging in to Google using the Identity Server': tutorials/logging-in-to-google-using-the-identity-server.md
+#      - 'Logging in to an Application Using Google': tutorials/logging-in-to-an-application-using-google.md
+#      - 'Testing OIDC Encrypted ID Token with IS': tutorials/testing-oidc-encrypted-id-token-with-is.md
+#      - 'Passing OIDC Authentication Request Parameters in a Request Object': tutorials/passing-oidc-authentication-request-parameters-in-a-request-object.md
+#      - 'Enforcing Signature Validation for Request Objects': tutorials/enforcing-signature-validation-for-request-objects.md
+#    - 'Adaptive Authentication':
+#      - 'Adaptive Authentication': tutorials/adaptive-authentication.md
+#      - 'Configuring a Service Provider for Adaptive Authentication': tutorials/configuring-a-service-provider-for-adaptive-authentication.md
+#      - 'Adaptive Authentication Scenarios':
+#        - 'Adaptive Authentication Scenarios': tutorials/adaptive-authentication-scenarios.md
+#        - 'Configuring Role-Based Adaptive Authentication': tutorials/configuring-role-based-adaptive-authentication.md
+#        - 'Configuring User-Age-Based Adaptive Authentication': tutorials/configuring-user-age-based-adaptive-authentication.md
+#        - 'Configuring Tenant-Based Adaptive Authentication': tutorials/configuring-tenant-based-adaptive-authentication.md
+#        - 'Configuring User Store-Based Adaptive Authentication': tutorials/configuring-user-store-based-adaptive-authentication.md
+#        - 'Configuring IP-Based Adaptive Authentication': tutorials/configuring-ip-based-adaptive-authentication.md
+#        - 'Configuring New-Device-Based Adaptive Authentication': tutorials/configuring-new-device-based-adaptive-authentication.md
+#        - 'Configuring ACR-Based Adaptive Authentication': tutorials/configuring-acr-based-adaptive-authentication.md
+#        - 'Configuring Risk-Based Adaptive Authentication': tutorials/configuring-risk-based-adaptive-authentication.md
+#        - 'Using WSO2 Stream Processor for Adaptive Authentication': tutorials/using-wso2-stream-processor-for-adaptive-authentication.md
+#    - 'Single Sign-On':
+#      - 'Single Sign-On': tutorials/single-sign-on.md
+#      - 'Configuring Single Sign-On':
+#        - 'Configuring Single Sign-On': tutorials/configuring-single-sign-on.md
+#        - 'Configuring reCaptcha for Single Sign On': tutorials/configuring-recaptcha-for-single-sign-on.md
+#      - 'Single Sign-On for Native iOS Applications with WSO2 Identity Server': tutorials/single-sign-on-for-native-ios-applications-with-wso2-identity-server.md
+#      - 'SAML 2.0 Web SSO':
+#        - 'SAML 2.0 Web SSO': tutorials/sAML-2.0-Web-SSO.md
+#        - 'Configuring SAML2 Web Single-Sign-On': tutorials/configuring-SAML-2.0-Web-SSO.md
+#        - 'Querying SAML Assertions': tutorials/querying-SAML-Assertions.md
+#        - 'Configuring SAML 2.0 Artifact Binding': tutorials/configuring-SAML-2.0-Artifact-Binding.md
+#      - 'WS-Trust':
+#        - 'WS-Trust': tutorials/ws-trust.md
+#        - 'Configuring WS-Trust Security Token Service': tutorials/configuring-ws-trust-security-token-service.md
+#      - 'WS-Federation':
+#        - 'WS-Federation': tutorials/ws-federation.md
+#        - 'Configuring WS-Federation Single Sign-On': tutorials/configuring-ws-federation-single-sign-on.md
+#      - 'Integrated Windows Authentication':
+#        - 'Integrated Windows Authentication Overview': tutorials/integrated-windows-authentication-overview.md
+#        - 'Configuring IWA Single-Sign-On': tutorials/configuring-iwa-single-sign-on.md
+#      - 'OAuth2-OpenID Connect':
+#        - 'OAuth2-OpenID Connect Overview': tutorials/oauth2-openid-connect-overview.md
+#        - 'Configuring OAuth2-OpenID Connect Single-Sign-On': tutorials/configuring-oauth2-openid-connect-single-sign-on.md
+#        - 'Configuring OpenID Connect Single Logout': tutorials/configuring-openid-connect-single-logout.md
+#    - 'Identity Federation':
+#      - 'Identity Federation': tutorials/identity-federation.md
+#      - 'Configuring Federated Authentication':
+#        - 'Configuring Federated Authentication': tutorials/configuring-federated-authentication.md
+#        - 'Configuring SAML 2.0 Web SSO': tutorials/configuring-saml-2.0-web-sso.md
+#        - 'Configuring OAuth2-OpenID Connect': tutorials/configuring-oauth2-openid-connect.md
+#        - 'Configuring WS-Federation': tutorials/configuring-ws-federation.md
+#        - 'Configuring Facebook': tutorials/configuring-facebook.md
+#        - 'Configuring Yahoo': tutorials/configuring-yahoo.md
+#        - 'Configuring Google': tutorials/configuring-google.md
+#        - 'Configuring Microsoft Windows Live': tutorials/configuring-microsoft-windows-live.md
+#        - 'Configuring IWA on Linux': tutorials/configuring-iwa-on-linux.md
+#        - 'Configuring AD FS as a Federated Authenticator': tutorials/configuring-ad-fs-as-a-federated-authenticator.md
+#        - 'Configuring Twitter': tutorials/configuring-twitter.md
+#        - 'Configuring SMS OTP': tutorials/configuring-sms-otp.md
+#        - 'Configuring Email OTP': tutorials/configuring-email-otp.md
+#      - 'Identity Federation with WS-Trust':
+#        - 'Identity Federation with WS-Trust': tutorials/identity-federation-with-ws-trust.md
+#        - 'Configuring STS for Obtaining Tokens with Holder-Of-Key Subject Confirmation': tutorials/configuring-sts-for-obtaining-tokens-with-holder-of-key-subject-confirmation.md
+#        - 'WSO2 Identity Server and Claim Aware Proxy Services with ESB': tutorials/wso2-identity-server-and-claim-aware-proxy-services-with-esb.md
+#        - 'Accessing Claim Aware Services using STS Secured with Non-repudiation': tutorials/accessing-claim-aware-services-using-sts-secured-with-non-repudiation.md
+#        - 'Requesting and Renewing Received SAML2 Bearer Type Tokens': tutorials/requesting-and-renewing-received-saml2-bearer-type-tokens.md
+#        - 'Configuring SAML2 Single-Sign-On Across Different WSO2 Products': tutorials/configuring-SAML2-Single-Sign-On-Across-Different-WSO2-Products.md
+#        - 'Client-side Support for SAML Artifact Binding': tutorials/client-side-Support-for-SAML-Artifact-Binding.md
+#        - 'eIDAS SAML Attribute Profile Support via WSO2 Identity Server': tutorials/eIDAS-SAML-Attribute-Profile-Support-via-WSO2-Identity-Server.md
+#    - 'Access Control':
+#      - 'Access Control Overview': tutorials/access-control.md
+#      - 'Working with Entitlement':
+#        - 'Configuring the Policy Administration Point':
+#          - 'Configuring the Policy Administration Point': tutorials/configuring-the-policy-administration-point.md
+#          - 'Creating a XACML Policy': tutorials/creating-a-xacml-policy.md
+#          - 'Editing a XACML Policy': tutorials/editing-a-xacml-policy.md
+#          - 'Managing the Version of a XACML Policy': tutorials/managing-the-version-of-a-xacml-policy.md
+#          - 'Publishing a XACML Policy': tutorials/publishing-a-xacml-policy.md
+#          - 'Viewing the Status of a XACML Policy': tutorials/viewing-the-status-of-a-xacml-policy.md
+#          - 'Writing a XACML Policy using a Policy Template': tutorials/writing-a-xacml-policy-using-a-policy-template.md
+#        - 'Configuring the Policy Decision Point':
+#          - 'Configuring the Policy Decision Point': tutorials/configuring-the-policy-decision-point.md
+#          - 'Clearing a Cache': tutorials/clearing-a-cache.md
+#          - 'Enabling and Disabling a XACML Policy': tutorials/enabling-and-disabling-a-xacml-policy.md
+#        - 'Configuring Access Control Policy for a Service Provider': tutorials/configuring-access-control-policy-for-a-service-provider.md
+#        - 'Validating the Scope of OAuth Access Tokens using XACML Policies': tutorials/validating-the-scope-of-oauth-access-tokens-using-xacml-policies.md
+#      - 'Working with XACML':
+#        - 'Working with XACML': tutorials/working-with-xacml.md
+#        - 'Configuring WSO2 EI Entitlement Mediator with Identity Server': tutorials/configuring-wso2-ei-entitlement-mediator-with-identity-server.md
+#        - 'Enabling REST Notifications For XACML Policy Updates': tutorials/enabling-rest-notifications-for-xacml-policy-updates.md
+#        - 'Identity Server as an XACML Engine': tutorials/identity-server-as-an-xacml-engine.md
+#        - 'Working with XACML Multiple Decision Profile Requests':
+#          - 'Working with XACML Multiple Decision Profile Requests Overview': tutorials/working-with-xacml-multiple-decision-profile-requests.md
+#          - 'Working with MDP Requests by Repeating Attribute Categories': tutorials/working-with-mdp-requests-by-repeating-attribute-categories.md
+#          - 'Working with MDP Requests to Authorize Hierarchical Resources': tutorials/working-with-mdp-requests-to-authorize-hierarchical-resources.md
+#          - 'Working with MDP Requests in JSON Format': tutorials/working-with-mdp-requests-in-json-format.md
+#        - 'Fine-grained Authorization using XACML Requests in JSON Format': tutorials/fine-grained-authorization-using-xacml-requests-in-json-format.md
+#        - 'Improving XACML PDP Performance with Caching Techniques': tutorials/improving-xacml-pdp-performance-with-caching-techniques.md
+#        - 'Integrating WSO2 Identity Server with Liferay': tutorials/integrating-wso2-identity-server-with-liferay.md
+#        - 'Writing XACML2.0 Policies in WSO2 Identity Server':
+#          - 'Writing XACML2.0 Policies in WSO2 Identity Server': tutorials/writing-xacml2.0-policies-in-wso2-identity-server.md
+#          - 'Writing XACML policies in WSO2 Identity Server - 1': tutorials/writing-xacml-policies-in-wso2-identity-server-1.md
+#          - 'Writing XACML policies in WSO2 Identity Server - 2': tutorials/writing-xacml-policies-in-wso2-identity-server-2.md
+#          - 'Writing XACML policies in WSO2 Identity Server - 3': tutorials/writing-xacml-policies-in-wso2-identity-server-3.md
+#          - 'Writing XACML policies in WSO2 Identity Server - 4': tutorials/writing-xacml-policies-in-wso2-identity-server-4.md
+#          - 'Writing XACML policies in WSO2 Identity Server - 5': tutorials/writing-xacml-policies-in-wso2-identity-server-5.md
+#          - 'Writing XACML policies in WSO2 Identity Server - 6': tutorials/writing-xacml-policies-in-wso2-identity-server-6.md
+#          - 'Writing XACML policies in WSO2 Identity Server - 7': tutorials/writing-xacml-policies-in-wso2-identity-server-7.md
+#        - 'Writing XACML3 Policies in WSO2 Identity Server':
+#          - 'Writing XACML3 Policies in WSO2 Identity Server': tutorials/writing-xacml3-policies-in-wso2-identity-server.md
+#          - 'Writing XACML 3 Policies in WSO2 Identity Server - 1': tutorials/writing-xacml-3-policies-in-wso2-identity-server-1.md
+#          - 'Writing XACML 3 Policies in WSO2 Identity Server - 2': tutorials/writing-xacml-3-policies-in-wso2-identity-server-2.md
+#          - 'Writing XACML 3 Policies in WSO2 Identity Server - 3': tutorials/writing-xacml-3-policies-in-wso2-identity-server-3.md
+#          - 'Writing XACML 3 Policies in WSO2 Identity Server - 4': tutorials/writing-xacml-3-policies-in-wso2-identity-server-4.md
+#          - 'Writing XACML 3 Policies in WSO2 Identity Server - 5': tutorials/writing-xacml-3-policies-in-wso2-identity-server-5.md
+#          - 'Writing XACML 3 Policies in WSO2 Identity Server - 6': tutorials/writing-xacml-3-policies-in-wso2-identity-server-6.md
+#          - 'Writing XACML 3 Policies in WSO2 Identity Server - 7': tutorials/writing-xacml-3-policies-in-wso2-identity-server-7.md
+#        - 'Sending Notifications to External PEP Endpoints': tutorials/sending-notifications-to-external-pep-endpoints.md
+#        - 'Writing an XACML 3.0 Policy Using XPath': tutorials/writing-a-xacml-3.0-policy-using-xpath.md
+#    - 'Setting Up An LDAP User Store': tutorials/setting-up-an-ldap-user-store.md
+#  - 'Using WSO2 Identity Server':
+#    - 'Product Administration':
+#      - 'Product Administration': using-wso2-identity-server/product-Administration.md
+#      - 'Configuring the Identity Server':
+#        - 'Configuring the Identity Server': using-wso2-identity-server/configuring-the-identity-server.md
+#        - 'Role-based Permissions': using-wso2-identity-server/role-based-permissions.md
+#        - 'Email Templates': using-wso2-identity-server/email-templates.md
+#        - 'Server Roles': using-wso2-identity-server/server-roles.md
+#        - 'Data Dictionary':
+#          - 'Data Dictionary': using-wso2-identity-server/data-dictionary.md
+#          - 'Registry Related Tables': using-wso2-identity-server/registry-related-tables.md
+#          - 'User Management Related Tables': using-wso2-identity-server/user-management-related-tables.md
+#          - 'Identity Related Tables': using-wso2-identity-server/identity-related-tables.md
+#          - 'Service Provider Related Tables': using-wso2-identity-server/service-provider-related-tables.md
+#          - 'Identity Provider Related Tables': using-wso2-identity-server/identity-provider-related-tables.md
+#      - 'Implementing Security in the Identity Server':
+#        - 'Implementing Security in the Identity Server': using-wso2-identity-server/implementing-security-in-the-identity-server.md
+#        - 'Configuring Transport Level Security': using-wso2-identity-server/configuring-transport-level-security.md
+#        - 'Saving Access Tokens in Separate Tables': using-wso2-identity-server/saving-access-tokens-in-separate-tables.md
+#        - 'Timestamp in WS-Security to Mitigate Replay Attacks': using-wso2-identity-server/timestamp-in-ws-security-to-mitigate-replay-attacks.md
+#        - 'Enabling Java Security Manager': using-wso2-identity-server/enabling-java-security-manager.md
+#        - 'Mitigating Cross Site Request Forgery (CSRF) Attacks': using-wso2-identity-server/mitigating-cross-site-request-forgery-csrf-attacks.md
+#        - 'Mitigating Authorization Code Interception Attacks': using-wso2-identity-server/mitigating-authorization-code-interception-attacks.md
+#        - 'Mitigating Brute Force Attacks': using-wso2-identity-server/mitigating-brute-force-attacks.md
+#      - 'Monitoring the Identity Server':
+#        - 'Monitoring the Identity Server': using-wso2-identity-server/monitoring-the-identity-server.md
+#        - 'System Statistics': using-wso2-identity-server/system-statistics.md
+#        - 'System Logs': using-wso2-identity-server/system-logs.md
+#        - 'SOAP Tracer': using-wso2-identity-server/soap-tracer.md
+#        - 'Application Logs': using-wso2-identity-server/application-logs.md
+#      - 'Removing References to Deleted User Identities': using-wso2-identity-server/removing-references-to-deleted-user-identities.md
+#      - 'Using Tools':
+#        - 'Using Tools': using-wso2-identity-server/using-tools.md
+#        - 'Using the SAML2 Toolkit': using-wso2-identity-server/using-the-saml2-toolkit.md
+#        - 'Using the XACML TryIt Tool':
+#          - 'Using the XACML TryIt Tool': using-wso2-identity-server/using-the-xacml-tryit-tool.md
+#          - 'Evaluating a XACML Policy': using-wso2-identity-server/evaluating-a-xacml-policy.md
+#      - 'XACML Performance in the Identity Server': using-wso2-identity-server/xacml-performance-in-the-identity-server.md
+#      - 'Performance Tuning Recommendations': using-wso2-identity-server/performance-tuning-recommendations.md
+#      - 'LDAP vs JDBC': using-wso2-identity-server/ldap-vs-jdbc.md
+#      - 'Removing Unused Tokens from the Database': using-wso2-identity-server/removing-unused-tokens-from-the-database.md
+#      - 'Adding Logs for Tokens': using-wso2-identity-server/adding-logs-for-tokens.md
+#      - 'Data Purging': using-wso2-identity-server/data-purging.md
+#      - 'Kerberos Security': using-wso2-identity-server/kerberos-security.md
+#      - 'Enabling Mutual SSL':
+#        - 'Enabling Mutual SSL': using-wso2-identity-server/enabling-mutual-ssl.md
+#        - 'Mutual TLS with client id and secret using OIDC': using-wso2-identity-server/mutual-tls-with-client-id-and-secret-using-oidc.md
+#      - 'Invoking an Endpoint from a Different Domain': using-wso2-identity-server/invoking-an-endpoint-from-a-different-domain.md
+#      - 'Working with Product Observability': using-wso2-identity-server/working-with-product-observability.md
+#    - 'Identity Administration and Provisioning':
+#      - 'Configuring the Realm':
+#        - 'Configuring the Realm': using-wso2-identity-server/configuring-the-Realm.md
+#        - 'Configuring the Authorization Manager': using-wso2-identity-server/configuring-the-Authorization-Manager.md
+#        - 'Configuring the System Administrator': using-wso2-identity-server/configuring-the-System-Administrator.md
+#        - 'Configuring User Stores':
+#          - 'Configuring User Stores': using-wso2-identity-server/configuring-User-Stores.md
+#          - 'Configuring the Primary User Store': using-wso2-identity-server/configuring-the-Primary-User-Store.md
+#          - 'Configuring Secondary User Stores': using-wso2-identity-server/configuring-Secondary-User-Stores.md
+#          - 'Configuring a JDBC User Store': using-wso2-identity-server/configuring-a-JDBC-User-Store.md
+#          - 'Configuring a Read-write Active Directory User Store': using-wso2-identity-server/configuring-a-Read-write-Active-Directory-User-Store.md
+#          - 'Configuring a Read-only LDAP User Store': using-wso2-identity-server/configuring-a-Read-only-LDAP-User-Store.md
+#          - 'Configuring a Read-write LDAP User Store': using-wso2-identity-server/configuring-a-Read-write-LDAP-User-Store.md
+#          - 'Writing a Custom User Store Manager': using-wso2-identity-server/writing-a-Custom-User-Store-Manager.md
+#      - 'Configuring Users, Roles and Permissions':
+#        - 'Configuring Users, Roles and Permissions': using-wso2-identity-server/configuring-Users-Roles-and-Permissions.md
+#        - 'Configuring Users': using-wso2-identity-server/configuring-Users.md
+#        - 'Configuring Roles and Permissions': using-wso2-identity-server/configuring-Roles-and-Permissions.md
+#        - 'Using Workflows with User Management': using-wso2-identity-server/using-Workflows-with-User-Management.md
+#      - 'Claim Management':
+#        - 'Claim Management': using-wso2-identity-server/claim-Management.md
+#        - 'Configuring Claim Dialects':
+#          - 'Configuring Claim Dialects': using-wso2-identity-server/configuring-Claim-Dialects.md
+#          - 'Adding Claim Dialects': using-wso2-identity-server/adding-Claim-Dialects.md
+#          - 'Editing Claim Dialects': using-wso2-identity-server/editing-Claim-Dialects.md
+#          - 'Deleting Claim Dialects': using-wso2-identity-server/deleting-Claim-Dialects.md
+#        - 'Configuring Claims':
+#          - 'Configuring Claims': using-wso2-identity-server/configuring-Claims.md
+#          - 'Adding Claim Mapping': using-wso2-identity-server/adding-Claim-Mapping.md
+#          - 'Editing Claim Mapping': using-wso2-identity-server/editing-Claim-Mapping.md
+#          - 'Deleting Claim Mapping': using-wso2-identity-server/deleting-Claim-Mapping.md
+#      - 'Identity Provisioning':
+#        - 'Identity Provisioning': using-wso2-identity-server/identity-provisioning.md
+#        - 'The Evolution of Provisioning Standards': using-wso2-identity-server/the-evolution-of-provisioning-standards.md
+#        - 'Inbound Provisioning':
+#          - 'Inbound Provisioning': using-wso2-identity-server/inbound-provisioning.md
+#          - 'Setting Up Service Provider for Inbound Provisioning': using-wso2-identity-server/setting-up-service-provider-for-inbound-provisioning.md
+#          - 'Configuring User Stores for SCIM 1.1 based inbound provisioning': using-wso2-identity-server/configuring-user-stores-for-scim-1.1-based-inbound-provisioning.md
+#          - 'Configuring Active Directory User Stores for Inbound Provisioning': using-wso2-identity-server/configuring-active-directory-user-stores-for-inbound-provisioning.md
+#        - 'Outbound Provisioning':
+#          - 'Outbound Provisioning': using-wso2-identity-server/outbound-provisioning.md
+#          - 'Outbound Provisioning with SCIM': using-wso2-identity-server/outbound-provisioning-with-scim.md
+#          - 'Outbound Provisioning with SPML': using-wso2-identity-server/outbound-provisioning-with-spml.md
+#          - 'Outbound Provisioning with Salesforce': using-wso2-identity-server/outbound-provisioning-with-salesforce.md
+#          - 'Outbound Provisioning with Google': using-wso2-identity-server/outbound-provisioning-with-google.md
+#        - 'Role Based Provisioning': using-wso2-identity-server/role-based-provisioning.md
+#        - 'Rule Based Provisioning': using-wso2-identity-server/rule-based-provisioning.md
+#        - 'Provisioning Patterns': using-wso2-identity-server/provisioning-patterns.md
+#      - 'Account Management Policies':
+#        - 'Account Management Policies': using-wso2-identity-server/account-Management-Policies.md
+#        - 'Account Recovery':
+#          - 'Account Recovery': using-wso2-identity-server/account-Recovery.md
+#          - 'Username Recovery':
+#            - 'Username Recovery': using-wso2-identity-server/username-Recovery.md
+#            - 'Configuring reCaptcha for Username Recovery': using-wso2-identity-server/configuring-reCaptcha-for-Username-Recovery.md
+#          - 'Password Recovery':
+#            - 'Password Recovery': using-wso2-identity-server/password-Recovery.md
+#            - 'Configuring Google reCaptcha for Security-Question Based Password Recovery': using-wso2-identity-server/configuring-Google-reCaptcha-for-Security-Question-Based-Password-Recovery.md
+#            - 'Configuring reCaptcha for Password Recovery': using-wso2-identity-server/configuring-reCaptcha-for-Password-Recovery.md
+#          - 'Managing Challenge Questions': using-wso2-identity-server/managing-Challenge-Questions.md
+#        - 'Self-Registration and Account Confirmation':
+#          - 'Self-Registration and Account Confirmation': using-wso2-identity-server/self-Registration-and-Account-Confirmation.md
+#          - 'Configuring reCaptcha for Self Registration': using-wso2-identity-server/configuring-reCaptcha-for-Self-Registration.md
+#        - 'Creating Users Using the Ask Password Option': using-wso2-identity-server/creating-Users-Using-the-Ask-Password-Option.md
+#        - 'Forced Password Reset': using-wso2-identity-server/forced-Password-Reset.md
+#        - 'User Account Suspension': using-wso2-identity-server/user-Account-Suspension.md
+#      - 'Password Policies':
+#        - 'Password Policies': using-wso2-identity-server/password-Policies.md
+#        - 'Password History Validation': using-wso2-identity-server/password-History-Validation.md
+#        - 'Password Patterns': using-wso2-identity-server/password-Patterns.md
+#      - 'Login Policies':
+#        - 'Login Policies': using-wso2-identity-server/login-Policies.md
+#        - 'User Account Locking and Account Disabling':
+#          - 'User Account Locking and Account Disabling': using-wso2-identity-server/user-Account-Locking-and-Account-Disabling.md
+#          - 'Account Locking by Failed Login Attempts': using-wso2-identity-server/account-Locking-by-Failed-Login-Attempts.md
+#          - 'Locking a Specific User Account': using-wso2-identity-server/locking-a-Specific-User-Account.md
+#          - 'Account Disabling': using-wso2-identity-server/account-Disabling.md
+#        - 'Setting Up ReCaptcha': using-wso2-identity-server/setting-Up-ReCaptcha.md
+#      - 'Workflow Management':
+#        - 'Workflow Management': using-wso2-identity-server/workflow-Management.md
+#        - 'Adding a Workflow Engine':
+#          - 'Adding a Workflow Engine': using-wso2-identity-server/adding-a-Workflow-Engine.md
+#          - 'Configuring the BPM Profile of WSO2 EI as a Workflow Engine': using-wso2-identity-server/configuring-the-BPM-Profile-of-WSO2-EI-as-a-Workflow-Engine.md
+#        - 'Adding a New Workflow Definition': using-wso2-identity-server/adding-a-New-Workflow-Definition.md
+#        - 'Engaging a Workflow in an Operation': using-wso2-identity-server/engaging-a-Workflow-in-an-Operation.md
+#        - 'Managing Human Tasks': using-wso2-identity-server/managing-Human-Tasks.md
+#        - 'Monitoring Workflow Requests': using-wso2-identity-server/monitoring-Workflow-Requests.md
+#      - 'Customizing Automated Emails': using-wso2-identity-server/customizing-Automated-Emails.md
+#      - 'Enabling Notifications for User Operations': using-wso2-identity-server/enabling-Notifications-for-User-Operations.md
+#      - 'Using the End User Dashboard': using-wso2-identity-server/using-the-End-User-Dashboard.md
+#      - 'Associating User Accounts': using-wso2-identity-server/associating-User-Accounts.md
+#      - 'Managing User Attributes': using-wso2-identity-server/managing-User-Attributes.md
+#      - 'Creating and Managing Tenants': using-wso2-identity-server/creating-and-Managing-Tenants.md
+#      - 'Using Email Address as the Username': using-wso2-identity-server/using-Email-Address-as-the-Username.md
+#      - 'Managing Consent Purposes': using-wso2-identity-server/managing-Consent-Purposes.md
+#    - 'Identity Bus':
+#      - 'Identity Bus': using-wso2-identity-server/identity-bus.md
+#      - 'Adding and Configuring a Service Provider':
+#        - 'Adding and Configuring a Service Provider': using-wso2-identity-server/adding-and-configuring-a-service-provider.md
+#        - 'Configuring Claims for a Service Provider':
+#          - 'Configuring Claims for a Service Provider': using-wso2-identity-server/configuring-claims-for-a-service-provider.md
+#          - 'Consent Management with Single-Sign-On': using-wso2-identity-server/consent-management-with-single-sign-on.md
+#        - 'Configuring Roles and Permissions for a Service Provider': using-wso2-identity-server/configuring-roles-and-permissions-for-a-service-provider.md
+#        - 'Configuring Inbound Authentication for a Service Provider': using-wso2-identity-server/configuring-inbound-authentication-for-a-service-provider.md
+#        - 'Configuring Local and Outbound Authentication for a Service Provider':
+#          - 'Configuring Local and Outbound Authentication for a Service Provider': using-wso2-identity-server/configuring-local-and-outbound-authentication-for-a-service-provider.md
+#          - 'Multi-factor Authentication for WSO2 IS': using-wso2-identity-server/multi-factor-authentication-for-wso2-is.md
+#          - 'Multi-factor Authentication using FIDO': using-wso2-identity-server/multi-factor-authentication-using-fido.md
+#          - 'Request Path Authentication': using-wso2-identity-server/request-path-authentication.md
+#          - 'Writing a Post-Authentication Handler': using-wso2-identity-server/writing-post-authentication-handler.md
+#          - 'Configuring Multi-factor Authentication with Username and Password': using-wso2-identity-server/configuring-multi-factor-authentication-with-username-and-password.md
+#        - 'Configuring Inbound Provisioning for a Service Provider': using-wso2-identity-server/configuring-inbound-provisioning-for-a-service-provider.md
+#        - 'Configuring Outbound Provisioning for a Service Provider': using-wso2-identity-server/configuring-outbound-provisioning-for-a-service-provider.md
+#        - 'Importing or Exporting a Service Provider': using-wso2-identity-server/importing-or-exporting-a-service-provider.md
+#      - 'Adding and Configuring an Identity Provider':
+#        - 'Adding and Configuring an Identity Provider': using-wso2-identity-server/adding-and-configuring-an-identity-provider.md
+#        - 'Configuring Claims for an Identity Provider': using-wso2-identity-server/configuring-claims-for-an-identity-provider.md
+#        - 'Configuring Roles for an Identity Provider': using-wso2-identity-server/configuring-roles-for-an-identity-provider.md
+#        - 'Configuring Just-In-Time Provisioning for an Identity Provider':
+#          - 'Configuring Just-In-Time Provisioning for an Identity Provider': using-wso2-identity-server/configuring-just-in-time-provisioning-for-an-identity-provider.md
+#          - 'Configuring Just-In-Time Provisioning Consent Purposes': using-wso2-identity-server/configuring-just-in-time-provisioning-consent-purposes.md
+#          - 'Customizing Just-In-Time Provisioning User Interfaces': using-wso2-identity-server/customizing-just-in-time-provisioning-user-interfaces.md
+#        - 'Configuring Outbound Provisioning Connectors for an Identity Provider': using-wso2-identity-server/configuring-outbound-provisioning-connectors-for-an-identity-provider.md
+#      - 'Authentication Session Persistence': using-wso2-identity-server/authentication-session-persistence.md
+#      - 'Configuring Session Timeout': using-wso2-identity-server/configuring-session-timeout.md
+#      - 'Configuring a SP and IdP Using Service Calls': using-wso2-identity-server/configuring-a-sp-and-idp-using-service-calls.md
+#    - 'Delegated Access Control':
+#      - 'Delegated Access Control': using-wso2-identity-server/delegated-access-control.md
+#      - 'OAuth Concepts': using-wso2-identity-server/oauth-concepts.md
+#      - 'Working with OAuth':
+#        - 'Working with OAuth': using-wso2-identity-server/working-with-oauth.md
+#        - 'OAuth 2.0 Clients': using-wso2-identity-server/oauth-2.0-clients.md
+#        - 'OAuth 2.0 Grant Types':
+#          - 'OAuth 2.0 Grant Types': using-wso2-identity-server/oauth-2.0-grant-types.md
+#          - 'Authorization Code Grant': using-wso2-identity-server/authorization-code-grant.md
+#          - 'Implicit Grant': using-wso2-identity-server/implicit-grant.md
+#          - 'Resource Owner Password Credentials Grant': using-wso2-identity-server/resource-owner-password-credentials-grant.md
+#          - 'Client Credentials Grant': using-wso2-identity-server/client-credentials-grant.md
+#          - 'Refresh Token Grant': using-wso2-identity-server/refresh-token-grant.md
+#          - 'Kerberos Grant': using-wso2-identity-server/kerberos-grant.md
+#        - 'SAML2 Bearer Assertion Profile for OAuth 2.0': using-wso2-identity-server/SAML2-Bearer-Assertion-Profile-for-OAuth-2.0.md
+#        - 'Setting Up OAuth Token Hashing': using-wso2-identity-server/setting-Up-OAuth-Token-Hashing.md
+#        - 'JWT Token Generation': using-wso2-identity-server/jWT-Token-Generation.md
+#        - 'OAuth2 Token Validation and Introspection':
+#          - 'OAuth2 Token Validation and Introspection': using-wso2-identity-server/oAuth2-Token-Validation-and-Introspection.md
+#          - 'Invoke the OAuth Introspection Endpoint': using-wso2-identity-server/invoke-the-OAuth-Introspection-Endpoint.md
+#          - 'OAuth Token Validation Using SOAP Service': using-wso2-identity-server/oAuth-Token-Validation-Using-SOAP-Service.md
+#          - 'OAuth Transaction Logs': using-wso2-identity-server/oAuth-Transaction-Logs.md
+#        - 'OAuth2 Token Revocation': using-wso2-identity-server/oAuth2-Token-Revocation.md
+#        - 'Self-contained Access Tokens':
+#          - 'Self-contained Access Tokens': using-wso2-identity-server/self-contained-Access-Tokens.md
+#          - 'Handling Custom Claims with the JWT Bearer Grant Type': using-wso2-identity-server/handling-Custom-Claims-with-the-JWT-Bearer-Grant-Type.md
+#        - 'Writing A New OAuth Client Authenticator': using-wso2-identity-server/writing-A-New-OAuth-Client-Authenticator.md
+#        - 'Private Key JWT Client Authentication for OIDC': using-wso2-identity-server/private-Key-JWT-Client-Authentication-for-OIDC.md
+#        - 'Mutual TLS for OAuth Clients': using-wso2-identity-server/mutual-TLS-for-OAuth-Clients.md
+#        - 'Microprofile JWT 1.0 support for IS':
+#          - 'Microprofile JWT 1.0 support for IS': using-wso2-identity-server/microprofile-JWT-1.0-support-for-IS.md
+#          - 'Running the MP-JWT Sample': using-wso2-identity-server/running-the-MP-JWT-Sample.md
+#        - 'Validating JWT based on JWKS': using-wso2-identity-server/validating-JWT-based-on-JWKS.md
+#        - 'Issuing New Tokens Per Request': using-wso2-identity-server/issuing-New-Tokens-Per-Request.md
+#      - 'OpenID Connect':
+#        - 'OpenID Connect': using-wso2-identity-server/openID-Connect.md
+#        - 'OpenID Connect Discovery': using-wso2-identity-server/openID-Connect-Discovery.md
+#        - 'OpenID Connect Authentication':
+#          - 'OpenID Connect Authentication': using-wso2-identity-server/openID-Connect-Authentication.md
+#          - 'OpenID Connect Basic Client Profile': using-wso2-identity-server/openID-Connect-Basic-Client-Profile.md
+#          - 'OpenID Connect Implicit Client Profile': using-wso2-identity-server/openID-Connect-Implicit-Client-Profile.md
+#          - 'OpenID Connect Hybrid Flow': using-wso2-identity-server/openID-Connect-Hybrid-Flow.md
+#        - 'OpenID Connect Dynamic Client Registration': using-wso2-identity-server/openID-Connect-Dynamic-Client-Registration.md
+#        - 'Request Object Support': using-wso2-identity-server/request-Object-Support.md
+#        - 'Configuring OpenID Connect Authorization Server': using-wso2-identity-server/configuring-OpenID-Connect-Authorization-Server.md
+#        - 'IDToken Signature Verification': using-wso2-identity-server/iDToken-Signature-Verification.md
+#        - 'JSON Web Key Set Endpoint': using-wso2-identity-server/jSON-Web-Key-Set-Endpoint.md
+#        - 'OpenID Connect Logout URL Redirection': using-wso2-identity-server/openID-Connect-Logout-URL-Redirection.md
+#        - 'OpenID Connect Scopes and Claims': using-wso2-identity-server/openID-Connect-Scopes-and-Claims.md
+#        - 'OpenID Connect Single Logout': using-wso2-identity-server/openID-Connect-Single-Logout.md
+#      - 'Extension Points for OAuth': using-wso2-identity-server/extension-Points-for-OAuth.md
+#      - 'User Managed Access':
+#        - 'User Managed Access': using-wso2-identity-server/user-managed-access.md
+#        - 'User Managed Access Endpoints': using-wso2-identity-server/user-managed-access-endpoints.md
+#        - 'User Managed Access with WSO2 Identity Server': using-wso2-identity-server/user-managed-access-with-wso2-identity-server.md
+#    - 'Consent Management': using-wso2-identity-server/consent-Management.md
+#    - 'Analytics':
+#      - 'Analytics': using-wso2-identity-server/analytics.md
+#      - 'Prerequisites to Publish Statistics':
+#        - 'Prerequisites to Publish Statistics': using-wso2-identity-server/prerequisites-to-Publish-Statistics.md
+#        - 'Enabling Geolocation Based Statistics': using-wso2-identity-server/enabling-Geolocation-Based-Statistics.md
+#      - 'Analyzing the Authentication Operations':
+#        - 'Analyzing the Authentication Operations': using-wso2-identity-server/analyzing-the-Authentication-Operations.md
+#        - 'Accessing the Analytics Dashboard': using-wso2-identity-server/accessing-the-Analytics-Dashboard.md
+#        - 'Analyzing Overall Login Attempts': using-wso2-identity-server/analyzing-Overall-Login-Attempts.md
+#        - 'Analyzing the Local Login Attempts': using-wso2-identity-server/analyzing-the-Local-Login-Attempts.md
+#        - 'Analyzing the Federated Login Attempts': using-wso2-identity-server/analyzing-the-Federated-Login-Attempts.md
+#        - 'Analyzing Session Statistics': using-wso2-identity-server/analyzing-Session-Statistics.md
+#      - 'Monitoring the Authentication Operations with Alerts':
+#        - 'Monitoring the Authentication Operations with Alerts': using-wso2-identity-server/Monitoring-the-Authentication-Operations-with-Alerts.md
+#        - 'Alert Types': using-wso2-identity-server/alert-Types.md
+#        - 'Configuring Alerts': using-wso2-identity-server/configuring-Alerts.md
+#        - 'Viewing Alerts': using-wso2-identity-server/Viewing-Alerts.md
+#    - 'Authenticators and Provisioning Connectors': using-wso2-identity-server/authenticators-and-Provisioning-Connectors.md
+#    - 'Samples':
+#      - 'Samples': using-wso2-identity-server/samples.md
+#      - 'Downloading a Sample': using-wso2-identity-server/Downloading-a-Sample.md
+#      - 'OAuth2':
+#        - 'OAuth2': using-wso2-identity-server/oAuth2.md
+#        - 'Writing a Custom OAuth 2.0 Grant Type':
+#          - 'Writing a Custom OAuth 2.0 Grant Type': using-wso2-identity-server/writing-a-Custom-OAuth-2.0-Grant-Type.md
+#          - 'Sending Custom Error Codes': using-wso2-identity-server/sending-Custom-Error-Codes.md
+#        - '2-legged OAuth for Securing a RESTful Service': using-wso2-identity-server/2-legged-OAuth-for-Securing-a-RESTful-Service.md
+#        - 'OAuth 2.0 with WSO2 Playground':
+#          - 'OAuth 2.0 with WSO2 Playground': using-wso2-identity-server/oAuth-2.0-with-WSO2-Playground.md
+#          - 'Setting Up the Sample Webapp': using-wso2-identity-server/setting-Up-the-Sample-Webapp.md
+#          - 'Try Authorization Code Grant': using-wso2-identity-server/try-Authorization-Code-Grant.md
+#          - 'Try Client Credentials Grant': using-wso2-identity-server/try-Client-Credentials-Grant.md
+#          - 'Try Implicit Grant': using-wso2-identity-server/try-Implicit-Grant.md
+#          - 'Try Password Grant': using-wso2-identity-server/try-Password-Grant.md
+#          - 'Try Request Path Authentication': using-wso2-identity-server/try-Request-Path-Authentication.md
+#        - 'Setting up a SAML2 Bearer Assertion Profile for OAuth 2.0': using-wso2-identity-server/setting-up-a-SAML2-Bearer-Assertion-Profile-for-OAuth-2.0.md
+#      - 'OpenIDConnect':
+#        - 'OpenIDConnect': using-wso2-identity-server/openIDConnect.md
+#        - 'Basic Client Profile with Playground': using-wso2-identity-server/basic-Client-Profile-with-Playground.md
+#        - 'Implicit Client Profile with Playground': using-wso2-identity-server/implicit-Client-Profile-with-Playground.md
+#        - 'Verifying OpenID Connect ID Token Signatures': using-wso2-identity-server/verifying-OpenID-Connect-ID-Token-Signatures.md
+#        - 'Decrypting OpenID Connect Encrypted ID Tokens': using-wso2-identity-server/decrypting-OpenID-Connect-Encrypted-ID-Tokens.md
+#      - 'Configuring Sample Application for Identity Management': using-wso2-identity-server/configuring-Sample-Application-for-Identity-Management.md
+#      - 'Writing a Web Service Client for Authentication and User Admin Services': using-wso2-identity-server/writing-a-Web-Service-Client-for-Authentication-and-User-Admin-Services.md
+#      - 'Testing Passive STS': using-wso2-identity-server/testing-Passive-STS.md
+#      - 'Consuming SCIM Rest Endpoints from a JAVA Client Application': using-wso2-identity-server/consuming-SCIM-Rest-Endpoints-from-a-JAVA-Client-Application.md
+#      - 'Running an STS Client': using-wso2-identity-server/running-an-STS-Client.md
+#      - 'XACML Sample for an Online Trading Application': using-wso2-identity-server/xACML-Sample-for-an-Online-Trading-Application.md
+#      - 'Broker Trust Relationships with WSO2 Identity Server': using-wso2-identity-server/broker-Trust-Relationships-with-WSO2-Identity-Server.md
+#      - 'Log in to the Identity Server using another Identity Server - SAML2': using-wso2-identity-server/log-in-to-the-Identity-Server-using-another-Identity-Server---SAML2.md
+#      - 'Login to Identity Server using another Identity Server - OAuth2': using-wso2-identity-server/login-to-Identity-Server-using-another-Identity-Server---OAuth2.md
+#    - 'Developer Guide':
+#      - 'Developer Guide': using-wso2-identity-server/developer-Guide.md
+#      - 'Working with the Source Code': using-wso2-identity-server/working-with-the-Source-Code.md
+#      - 'Extending the Identity Server': using-wso2-identity-server/extending-the-Identity-Server.md
+#      - 'Using APIs': using-wso2-identity-server/using-APIs.md
+#      - 'Customizing User Interfaces': using-wso2-identity-server/customizing-User-Interfaces.md
+#      - 'Customizing the Authentication Endpoint': using-wso2-identity-server/customizing-the-Authentication-Endpoint.md
+#      - 'Localization Support in Identity Server': using-wso2-identity-server/localization-Support-in-Identity-Server.md
+#      - 'Hosting Authentication Endpoint on a Different Server': using-wso2-identity-server/hosting-Authentication-Endpoint-on-a-Different-Server.md
+#    - 'Logging Claims in Audit Logs': using-wso2-identity-server/logging-Claims-in-Audit-Logs.md
+#  - 'Admin Guide':
+#    - 'WSO2 Administration Guide': admin-guide/wSO2-Administration-Guide.md
+#    - 'Deployment and Clustering':
+#      - 'Deployment and Clustering': admin-guide/deployment-and-Clustering.md
+#      - 'Key Concepts':
+#        - 'Key Concepts': admin-guide/key-Concepts.md
+#        - 'Clustering Overview': admin-guide/clustering-Overview.md
+#        - 'Load Balancing': admin-guide/load-Balancing.md
+#        - 'Separating the Worker and Manager Nodes': admin-guide/separating-the-Worker-and-Manager-Nodes.md
+#        - 'Sharing Databases in a Cluster': admin-guide/sharing-Databases-in-a-Cluster.md
+#        - 'Sticky Sessions with Manager Nodes': admin-guide/sticky-Sessions-with-Manager-Nodes.md
+#      - 'Production Deployment Guidelines':
+#        - 'Production Deployment Guidelines': admin-guide/production-Deployment-Guidelines.md
+#        - 'Security Guidelines for Production Deployment': admin-guide/security-Guidelines-for-Production-Deployment.md
+#        - 'Troubleshooting in Production Environments': admin-guide/troubleshooting-in-Production-Environments.md
+#      - 'Configuring rsync for Deployment Synchronization': admin-guide/configuring-rsync-for-Deployment-Synchronization.md
+#    - 'Data Stores':
+#      - 'Data Stores': admin-guide/data-Stores.md
+#      - 'Working with Databases':
+#        - 'Working with Databases': admin-guide/working-with-Databases.md
+#        - 'Setting up the Physical Database':
+#          - 'Setting up the Physical Database': admin-guide/setting-up-the-Physical-Database.md
+#          - 'Setting up IBM DB2': admin-guide/setting-up-IBM-DB2.md
+#          - 'Setting up IBM Informix': admin-guide/setting-up-IBM-Informix.md
+#          - 'Setting up H2':
+#            - 'Setting up H2': admin-guide/setting-up-H2.md
+#            - 'Setting up Embedded H2': admin-guide/setting-up-Embedded-H2.md
+#            - 'Setting up Remote H2': admin-guide/setting-up-Remote-H2.md
+#          - 'Setting up MariaDB': admin-guide/setting-up-MariaDB.md
+#          - 'Setting up Microsoft SQL': admin-guide/setting-up-Microsoft-SQL.md
+#          - 'Setting up MySQL': admin-guide/setting-up-MySQL.md
+#          - 'Setting up a MySQL Cluster': admin-guide/setting-up-a-MySQL-Cluster.md
+#          - 'Setting up Oracle': admin-guide/setting-up-Oracle.md
+#          - 'Setting up Oracle RAC': admin-guide/setting-up-Oracle-RAC.md
+#          - 'Setting up PostgreSQL': admin-guide/setting-up-PostgreSQL.md
+#          - 'Setting up Derby':
+#            - 'Setting up Derby': admin-guide/setting-up-Derby.md
+#            - 'Setting up Embedded Derby': admin-guide/setting-up-Embedded-Derby.md
+#            - 'Setting up Remote Derby': admin-guide/setting-up-Remote-Derby.md
+#        - 'Changing the Carbon Database':
+#          - 'Changing the Carbon Database': admin-guide/changing-the-Carbon-Database.md
+#          - 'Changing to Embedded Derby': admin-guide/changing-to-Embedded-Derby.md
+#          - 'Changing to Embedded H2': admin-guide/changing-to-Embedded-H2.md
+#          - 'Changing to IBM DB2': admin-guide/changing-to-IBM-DB2.md
+#          - 'Changing to IBM Informix': admin-guide/changing-to-IBM-Informix.md
+#          - 'Changing to MariaDB': admin-guide/changing-to-MariaDB.md
+#          - 'Changing to MSSQL': admin-guide/changing-to-MSSQL.md
+#          - 'Changing to MySQL': admin-guide/changing-to-MySQL.md
+#          - 'Changing to Oracle': admin-guide/changing-to-Oracle.md
+#          - 'Changing to Oracle RAC': admin-guide/changing-to-Oracle-RAC.md
+#          - 'Changing to PostgreSQL': admin-guide/changing-to-PostgreSQL.md
+#          - 'Changing to Remote H2': admin-guide/changing-to-Remote-H2.md
+#        - 'Browsing the H2 Database': admin-guide/browsing-the-H2-Database.md
+#      - 'Working with the Registry':
+#        - 'Working with the Registry': admin-guide/working-with-the-Registry.md
+#        - 'Managing the Registry':
+#          - 'Managing the Registry': admin-guide/managing-the-Registry.md
+#          - 'Metadata': admin-guide/metadata.md
+#          - 'Properties': admin-guide/properties.md
+#          - 'Entries and Content':
+#            - 'Entries and Content': admin-guide/entries-and-Content.md
+#            - 'Adding a Resource': admin-guide/adding-a-Resource.md
+#            - 'Link Creation': admin-guide/link-Creation.md
+#            - 'Editing collections using the Entries panel': admin-guide/editing-collections-using-the-Entries-panel.md
+#          - 'Role Permissions': admin-guide/role-Permissions.md
+#        - 'Searching the Registry': admin-guide/searching-the-Registry.md
+#        - 'Using Remote Registry Instances for the Registry Partitions':
+#          - 'Using Remote Registry Instances for the Registry Partitions': admin-guide/using-Remote-Registry-Instances-for-the-Registry-Partitions.md
+#          - 'All Partitions in a Single Server': admin-guide/all-Partitions-in-a-Single-Server.md
+#          - 'Config and Governance Partitions in a Remote Registry': admin-guide/config-and-Governance-Partitions-in-a-Remote-Registry.md
+#          - 'Governance Partition in a Remote Registry': admin-guide/governance-Partition-in-a-Remote-Registry.md
+#          - 'Config and Governance Partitions in Separate Nodes': admin-guide/config-and-Governance-Partitions-in-a-Remote-Registry.md
+#      - 'Working with Users, Roles and Permissions':
+#        - 'Working with Users, Roles and Permissions': admin-guide/working-with-Users-Roles-and-Permissions.md
+#        - 'Introduction to User Management': admin-guide/introduction-to-User-Management.md
+#        - 'Configuring the User Realm':
+#          - 'Configuring the User Realm': admin-guide/configuring-the-User-Realm.md
+#          - 'Configuring the System Administrator': admin-guide/configuring-the-System-Administrator.md
+#          - 'Configuring the Authorization Manager': admin-guide/configuring-the-Authorization-Manager.md
+#          - 'Configuring User Stores':
+#            - 'Configuring User Stores': admin-guide/configuring-User-Stores.md
+#            - 'Configuring the Primary User Store':
+#              - 'Configuring the Primary User Store': admin-guide/configuring-the-Primary-User-Store.md
+#              - 'Configuring a JDBC User Store': admin-guide/configuring-a-JDBC-User-Store.md
+#              - 'Configuring a Read-Only LDAP User Store': admin-guide/configuring-a-Read-Only-LDAP-User-Store.md
+#              - 'Configuring a Read-Write Active Directory User Store': admin-guide/configuring-a-Read-Write-Active-Directory-User-Store.md
+#              - 'Configuring a Read-Write LDAP User Store': admin-guide/configuring-a-Read-Write-LDAP-User-Store.md
+#            - 'Configuring Secondary User Stores': admin-guide/configuring-Secondary-User-Stores.md
+#            - 'Working with Properties of User Stores': admin-guide/working-with-Properties-of-User-Stores.md
+#            - 'Writing a Custom User Store Manager': admin-guide/writing-a-Custom-User-Store-Manager.md
+#    - 'Security':
+#      - 'Security': admin-guide/security.md
+#      - 'Maintaining Logins and Passwords': admin-guide/maintaining-Logins-and-Passwords.md
+#      - 'Securing Passwords in Configuration Files':
+#        - 'Securing Passwords in Configuration Files': admin-guide/securing-Passwords-in-Configuration-Files.md
+#        - 'Encrypting Passwords with Cipher Tool': admin-guide/encrypting-Passwords-with-Cipher-Tool.md
+#        - 'Resolving Encrypted Passwords': admin-guide/resolving-Encrypted-Passwords.md
+#        - 'Carbon Secure Vault Implementation': admin-guide/carbon-Secure-Vault-Implementation.md
+#      - 'Configuring Transport Level Security': admin-guide/configuring-Transport-Level-Security.md
+#      - 'Enabling Java Security Manager': admin-guide/enabling-Java-Security-Manager.md
+#      - 'Using Asymmetric Encryption':
+#        - 'Using Asymmetric Encryption': admin-guide/using-Asymmetric-Encryption.md
+#        - 'Creating New Keystores': admin-guide/creating-New-Keystores.md
+#        - 'Renewing a CA-Signed Certificate in a Keystore': admin-guide/renewing-a-CA-Signed-Certificate-in-a-Keystore.md
+#        - 'Configuring Keystores in WSO2 Products': admin-guide/configuring-Keystores-in-WSO2-Products.md
+#        - 'Managing Keystores with the UI': admin-guide/managing-Keystores-with-the-UI.md
+#      - 'Using Symmetric Encryption': admin-guide/using-Symmetric-Encryption.md
+#      - 'Mitigating Cross Site Request Forgery Attacks': admin-guide/mitigating-Cross-Site-Request-Forgery-Attacks.md
+#      - 'Mitigating Cross Site Scripting Attacks': admin-guide/mitigating-Cross-Site-Scripting-Attacks.md
+#      - 'Enabling HostName Verification': admin-guide/enabling-HostName-Verification.md
+#      - 'Configuring TLS Termination': admin-guide/configuring-TLS-Termination.md
+#    - 'Carbon Applications':
+#      - 'Carbon Applications': admin-guide/carbon-Applications.md
+#      - 'Adding a Custom Proxy Path': admin-guide/adding-a-Custom-Proxy-Path.md
+#      - 'Changing the Default Ports':
+#        - 'Changing the Default Ports': admin-guide/changing-the-Default-Ports.md
+#        - 'Default Ports of WSO2 Products': admin-guide/default-Ports-of-WSO2-Products.md
+#      - 'Configuring SAML2 Single-Sign-On Across Different WSO2 Products': admin-guide/configuring-SAML2-Single-Sign-On-Across-Different-WSO2-Products.md
+#      - 'Configuring the Task Scheduling Component': admin-guide/configuring-the-Task-Scheduling-Component.md
+#      - 'Customizing Error Pages': admin-guide/customizing-Error-Pages.md
+#      - 'Customizing the Management Console': admin-guide/customizing-the-Management-Console.md
+#      - 'Installing WSO2 Products as a Service':
+#        - 'Installing WSO2 Products as a Service': admin-guide/installing-WSO2-Products-as-a-Service.md
+#        - 'Installing as a Linux Service': admin-guide/installing-as-a-Linux-Service.md
+#        - 'Installing as a Windows Service': admin-guide/installing-as-a-Windows-Service.md
+#      - 'Managing Datasources':
+#        - 'Managing Datasources': admin-guide/managing-Datasources.md
+#        - 'Adding Datasources': admin-guide/adding-Datasources.md
+#        - 'Configuring an RDBMS Datasource':
+#          - 'Configuring an RDBMS Datasource': admin-guide/configuring-an-RDBMS-Datasource.md
+#          - 'Configuring the Datasource Provider': admin-guide/configuring-the-Datasource-Provider.md
+#          - 'Configuring a JNDI Datasource': admin-guide/configuring-a-JNDI-Datasource.md
+#          - 'Configuring the Datasource Connection Pool Parameters': admin-guide/configuring-the-Datasource-Connection-Pool-Parameters.md
+#        - 'Configuring a Custom Datasource': admin-guide/configuring-a-Custom-Datasource.md
+#      - 'Managing Users, Roles and Permissions':
+#        - 'Managing Users, Roles and Permissions': admin-guide/managing-Users-Roles-and-Permissions.md
+#        - 'Changing a Password': admin-guide/changing-a-Password.md
+#        - 'Configuring Roles': admin-guide/configuring-Roles.md
+#        - 'Configuring Users': admin-guide/configuring-Users.md
+#        - 'Role-based Permissions': admin-guide/role-based-Permissions.md
+#        - 'Managing User Attributes': admin-guide/managing-User-Attributes.md
+#        - 'Removing References to Deleted User Identities in WSO2 Products':
+#          - 'Removing References to Deleted User Identities in WSO2 Products': admin-guide/removing-References-to-Deleted-User-Identities-in-WSO2-Products.md
+#          - 'Extending the Identity Anonymization Tool': admin-guide/extending-the-Identity-Anonymization-Tool.md
+#      - 'Securing Carbon Applications': admin-guide/securing-Carbon-Applications.md
+#      - 'Working with Composite Applications':
+#        - 'Working with Composite Applications': admin-guide/working-with-Composite-Applications.md
+#        - 'Introduction to Composite Applications': admin-guide/introduction-to-Composite-Applications.md
+#        - 'Packaging Artifacts into Composite Applications': admin-guide/packaging-Artifacts-into-Composite-Applications.md
+#        - 'Deploying Composite Applications in the Server': admin-guide/deploying-Composite-Applications-in-the-Server.md
+#      - 'Working with Features': admin-guide/working-with-Features.md
+#      - 'Working with Multiple Tenants':
+#        - 'Working with Multiple Tenants': admin-guide/working-with-Multiple-Tenants.md
+#        - 'Introduction to Multitenancy': admin-guide/introduction-to-Multitenancy.md
+#        - 'Configuring the Tenant Loading Policy': admin-guide/configuring-the-Tenant-Loading-Policy.md
+#        - 'Adding New Tenants': admin-guide/adding-New-Tenants.md
+#      - 'Working with Transports':
+#        - 'Working with Transports': admin-guide/working-with-Transports.md
+#        - 'Introduction to Transports': admin-guide/introduction-to-Transports.md
+#        - 'Carbon Transports':
+#          - 'Carbon Transports': admin-guide/carbon-Transports.md
+#          - 'HTTP Servlet Transport': admin-guide/hTTP-Servlet-Transport.md
+#          - 'HTTPS Servlet Transport': admin-guide/hTTPS-Servlet-Transport.md
+#          - 'HTTP-NIO Transport': admin-guide/hTTP-NIO-Transport.md
+#          - 'HTTPS-NIO Transport': admin-guide/hTTPS-NIO-Transport.md
+#          - 'VFS Transport': admin-guide/vFS-Transport.md
+#          - 'JMS Transport': admin-guide/jMS-Transport.md
+#          - 'MailTo Transport': admin-guide/mailTo-Transport.md
+#          - 'TCP Transport': admin-guide/tCP-Transport.md
+#          - 'Local Transport': admin-guide/local-Transport.md
+#          - 'UDP Transport': admin-guide/uDP-Transport.md
+#          - 'FIX Transport': admin-guide/fIX-Transport.md
+#    - 'Performance Tuning': admin-guide/performance-Tuning.md
+#    - 'Monitoring':
+#      - 'Monitoring': admin-guide/monitoring.md
+#      - 'Capturing System Data in Error Situations': admin-guide/capturing-System-Data-in-Error-Situations.md
+#      - 'JMX-Based Monitoring': admin-guide/jMX-Based-Monitoring.md
+#      - 'Monitoring Logs':
+#        - 'Monitoring Logs': admin-guide/monitoring-Logs.md
+#        - 'Monitoring Logs using Management Console':
+#          - 'Monitoring Logs using Management Console': admin-guide/monitoring-Logs-using-Management-Console.md
+#          - 'Configuring Log4j Properties': admin-guide/configuring-Log4j-Properties.md
+#          - 'Configuring the Log Provider': admin-guide/configuring-the-Log-Provider.md
+#          - 'View and Download Logs': admin-guide/view-and-Download-Logs.md
+#        - 'HTTP Access Logging': admin-guide/hTTP-Access-Logging.md
+#        - 'Masking Sensitive Information in Logs': admin-guide/masking-Sensitive-Information-in-Logs.md
+#      - 'Monitoring Message Flows': admin-guide/monitoring-Message-Flows.md
+#      - 'Monitoring Performance Statistics': admin-guide/monitoring-Performance-Statistics.md
+#      - 'Monitoring SOAP Messages': admin-guide/monitoring-SOAP-Messages.md
+#      - 'Monitoring TCP-Based Messages':
+#        - 'Monitoring TCP-Based Messages': admin-guide/monitoring-TCP-Based-Messages.md
+#        - 'Starting TCPMon': admin-guide/starting-TCPMon.md
+#        - 'Message Monitoring with TCPMon': admin-guide/message-Monitoring-with-TCPMon.md
+#        - 'Other Usages of TCPMon': admin-guide/other-Usages-of-TCPMon.md
+#      - 'Monitoring with WSO2 Carbon Metrics':
+#        - 'Monitoring with WSO2 Carbon Metrics': admin-guide/monitoring-with-WSO2-Carbon-Metrics.md
+#        - 'Setting Up Carbon Metrics':
+#          - 'Setting Up Carbon Metrics': admin-guide/setting-Up-Carbon-Metrics.md
+#          - 'Enabling Metrics and Storage Types': admin-guide/enabling-Metrics-and-Storage-Types.md
+#          - 'Configuring Metrics Properties': admin-guide/configuring-Metrics-Properties.md
+#        - 'Using JVM Metrics': admin-guide/using-JVM-Metrics.md
+#        - 'Using Messaging Metrics': admin-guide/using-Messaging-Metrics.md
+#      - 'Monitoring Server Health': admin-guide/monitoring-Server-Health.md
+#    - 'Getting WSO2 Updates': admin-guide/getting-WSO2-Updates.md
+#    - 'Reference Guide':
+#      - 'Reference Guide': admin-guide/reference-Guide.md
+#      - 'Configuration Files': admin-guide/configuration-Files.md
+#      - 'Database Upgrade Guide': admin-guide/database-Upgrade-Guide.md
+#      - 'Product Startup Options': admin-guide/product-Startup-Options.md
+#      - 'Supported Cipher Suites': admin-guide/supported-Cipher-Suites.md
+#      - 'Directory Structure of WSO2 Products': admin-guide/directory-Structure-of-WSO2-Products.md
+#      - 'WSO2 Patch Application Process': admin-guide/wSO2-Patch-Application-Process.md
+#  - 'References':
+#    - 'References': references/references.md
+#    - 'Default Ports of WSO2 Products': references/default-ports-of-wso2-products.md
+#    - 'Permissions Required to Invoke Admin Services': references/permissions-Required-to-Invoke-Admin-Services.md
+#    - 'API Permissions': references/api-permissions.md
+#    - 'Evolution of Identity Federation Standards': references/evolution-of-Identity-Federation-Standards.md
+#    - 'Adaptive Authentication JS API Reference': references/adaptive-authentication-js-api-reference.md
   - '': page-not-found.md
      
 # Extensions
@@ -774,6 +805,8 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+  - markdown_include.include:
+      base_path: docs
     
 # Extra
 extra_css:
