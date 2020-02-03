@@ -42,28 +42,38 @@ theme:
   feature:
     tabs: true
   language: 'en'
-  
+
 # Navigation
 nav:
   - 'Home': index.md
   - 'Quick Start' :
     - 'Quick Start':  quick-start.md
-  - 'Single Sign On' :
-    - 'Chosing your platform' : sso/choose-platform.md
-    - 'Platforms' :
-      - 'SAML' : sso/configure-saml-application.md
-      - 'OpenID Connect': sso/configure-oidc-application.md
-      - 'Passive STS' : sso/configure-passive-sts-application.md
-  - 'Managing Users' :
-    - 'Managing User Stores' :
-        - 'Connecting a Database Userstore' : user/connect-database-userstore.md
-        - 'Connecting a LDAP Userstore' : user/connect-ldap-userstore.md
-        - 'Connecting a Active Directory Userstore' : user/connect-ldap-userstore.md
+  - 'Guides' :
+    - 'Single Sign On':
+        - 'Chosing your platform': sso/choose-platform.md
+        - 'Platforms':
+            - 'SAML': sso/configure-saml-application.md
+            - 'OpenID Connect': sso/configure-oidc-application.md
+            - 'Passive STS': sso/configure-passive-sts-application.md
     - 'Managing Users' :
-        - 'Add a user' : user/user-add.md
-        - 'Bulk add users' : user/user-bulk-add.md
-        - 'View a user profile' : user/user-view-profile.md
-  - 'Reference' :
+      - 'Managing User Stores' :
+          - 'Connecting a Database Userstore' : user/connect-database-userstore.md
+          - 'Connecting a LDAP Userstore' : user/connect-ldap-userstore.md
+          - 'Connecting a Active Directory Userstore' : user/connect-ldap-userstore.md
+      - 'Managing Users' :
+          - 'Add a user' : guides/user-mgt/user-add.md
+          - 'Bulk add users' : guides/user-mgt/user-bulk-add.md
+          - 'View and Update Profile' : guides/user-mgt/user-view-profile.md
+          - 'Assign Roles' : guides/user-mgt/user-assign-role.md
+          - 'Change Password' : guides/user-mgt/change-password.md
+          - 'Locking and Unlocking' : guides/user-mgt/user-lock-account.md
+      - 'Configuring Policies' :
+          - 'Password Policies' :
+              - 'Password length' : guides/user-mgt/password-length.md
+              - 'Password complexity' : guides/user-mgt/password-complexity.md
+              - 'Password history' : guides/user-mgt/password-history.md
+              - 'Password expiration' : guides/user-mgt/password-expiration.md
+  - 'References' :
     - 'REST APIs' : reference/rest-api-reference.md
     - 'Authentication Script API' : reference/authentication-script-reference.md
     - 'Configuration Catalog' : reference/configuration-catalogue.md
@@ -777,7 +787,7 @@ nav:
 #    - 'Evolution of Identity Federation Standards': references/evolution-of-Identity-Federation-Standards.md
 #    - 'Adaptive Authentication JS API Reference': references/adaptive-authentication-js-api-reference.md
   - '': page-not-found.md
-     
+
 # Extensions
 markdown_extensions:
   - markdown.extensions.admonition
@@ -807,7 +817,7 @@ markdown_extensions:
   - pymdownx.tilde
   - markdown_include.include:
       base_path: docs
-    
+
 # Extra
 extra_css:
   - assets/lib/highlightjs/default.min.css
